@@ -18,7 +18,7 @@ This guide covers four essential tools:
 - **Tmux** - Terminal multiplexer for session management
 - **Lazygit** - Visual Git interface
 
-> ZSH + Oh My Zsh 환경을 원한다면 [[ZSH Setup Guide]] 참고. (ROS/ROS2 환경에서는 bash 권장)
+> For ZSH + Oh My Zsh setup, see [[ZSH Setup Guide]]. (Bash is recommended for ROS/ROS2 environments)
 
 You can also find this setup on my GitHub: [Ubuntu Basic Setup](https://github.com/JisangYun00/Ubuntu-Basic-Setup)
 
@@ -26,23 +26,23 @@ You can also find this setup on my GitHub: [Ubuntu Basic Setup](https://github.c
 
 ## 1. Bash Enhancement
 
-### 대소문자 무시 자동완성
+### Case-Insensitive Tab Completion
 
-`~/.inputrc` 파일을 설정하면 자동완성 시 대소문자를 구분하지 않게 만들 수 있음.
+Configure `~/.inputrc` to make tab completion case-insensitive.
 
-#### 방법 1: 직접 편집
+#### Option 1: Edit directly
 ```bash
 vim ~/.inputrc
 ```
 
-아래 내용 추가:
+Add the following:
 ```
 set completion-ignore-case on
 set show-all-if-ambiguous on
 set colored-stats on
 ```
 
-#### 방법 2: 명령어로 생성
+#### Option 2: Generate via commands
 
 ```bash
 echo 'set completion-ignore-case on' > ~/.inputrc
@@ -50,7 +50,7 @@ echo 'set show-all-if-ambiguous on' >> ~/.inputrc
 echo 'set colored-stats on' >> ~/.inputrc
 ```
 
-#### 설정 적용
+#### Apply settings
 
 ```bash
 bind -f ~/.inputrc
@@ -59,20 +59,20 @@ bind -f ~/.inputrc
 ---
 
 ### fzf (Fuzzy Finder)
-명령어 히스토리를 더 편하게 검색할 수 있는 도구.
+A tool for fuzzy searching through command history.
 
-#### 설치
+#### Installation
 ```bash
 git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
 ~/.fzf/install
 ```
 
-#### 사용
-- `Ctrl + R` → 히스토리 fuzzy 검색
+#### Usage
+- `Ctrl + R` → Fuzzy search through history
 
 ---
 
-### 적용 확인
+### Verify settings
 
 ```bash
 source ~/.bashrc
