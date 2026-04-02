@@ -3,6 +3,7 @@ title: Arrays, List and Vectors
 draft: false
 tags: 
 aliases:
+date: 2025-02-03
 ---
 ## Basic of Array and List
 ### Array(배열) - array[ ]

@@ -5,6 +5,7 @@ tags:
   - "#git"
   - "#github"
 aliases:
+date: 2025-08-19
 ---
 ## Generate Token
 1. Go to GitHub Settings → Developer settings → Personal access tokens → Tokens (classic)

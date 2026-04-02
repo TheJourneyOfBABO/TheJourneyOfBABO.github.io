@@ -3,6 +3,7 @@ title: F1Tenth Project Prerequisite
 draft: false
 tags: 
 aliases:
+date: 2025-11-30
 ---
 ## [[F1Tenth]] Prerequisites: What You Need to Know Before Starting
 Before diving into this exciting robotics project, here are the essential skills and knowledge areas you should familiarize yourself with:

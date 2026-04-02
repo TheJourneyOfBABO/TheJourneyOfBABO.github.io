@@ -4,6 +4,7 @@ draft: false
 tags: 
 aliases:
   - Resume
+date: 2026-02-03
 ---
 # Jisang Yun
 

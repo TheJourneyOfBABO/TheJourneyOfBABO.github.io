@@ -3,6 +3,7 @@ title: Stack and Queue
 draft: false
 tags: 
 aliases:
+date: 2025-03-27
 ---
 ## Stack and Queue
 배열에서 조금 더 발전한 형태의 자료구조

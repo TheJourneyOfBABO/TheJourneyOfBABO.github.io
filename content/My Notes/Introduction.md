@@ -3,6 +3,7 @@ title: Introduction
 draft: false
 tags: 
 aliases:
+date: 2025-02-10
 ---
 ## Introduction of My Notes
 >The space for my notes. This is Kinda my second brain

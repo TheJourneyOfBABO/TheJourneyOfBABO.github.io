@@ -4,6 +4,7 @@ draft: false
 tags:
   - "#linux"
 aliases:
+date: 2025-06-10
 ---
 ## Basic Shell Concepts
 

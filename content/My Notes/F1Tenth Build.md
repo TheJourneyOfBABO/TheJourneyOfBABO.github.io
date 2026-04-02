@@ -5,6 +5,7 @@ tags:
   - F1Tenth
 aliases:
   - build F1Tenth
+date: 2025-11-30
 ---
 ## [F1Tenth Build Page](https://roboracer.ai/build.html)
 ![[mirucar.jpg]]

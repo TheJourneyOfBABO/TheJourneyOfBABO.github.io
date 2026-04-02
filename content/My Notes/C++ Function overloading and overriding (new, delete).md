@@ -5,6 +5,7 @@ tags:
   - cpp
 aliases:
   - Function overloading and overriding (new, delete)
+date: 2025-08-30
 ---
 ## 메모리 관리의 필요성
 **스택(Stack) vs 힙(Heap)**

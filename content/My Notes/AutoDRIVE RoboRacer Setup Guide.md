@@ -5,6 +5,7 @@ tags:
   - F1Tenth
 aliases:
   - autodrive install
+date: 2025-05-13
 ---
 >**Complete setup guide for the AutoDRIVE RoboRacer simulation environment. [[F1Tenth]] sim racing**
 

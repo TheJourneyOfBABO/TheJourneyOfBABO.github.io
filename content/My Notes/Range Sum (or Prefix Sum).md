@@ -4,6 +4,7 @@ draft: false
 tags: 
 aliases:
   - 구간 합
+date: 2025-02-07
 ---
 ## Range Sum (구간 합)
 

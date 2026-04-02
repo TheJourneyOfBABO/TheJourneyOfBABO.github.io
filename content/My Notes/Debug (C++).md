@@ -4,6 +4,7 @@ draft: false
 tags: 
 aliases:
   - 디버깅 (C++)
+date: 2025-06-16
 ---
 ## Debugging
 > **가장 뛰어난 오류 탐색 방법, 디버깅**

@@ -3,6 +3,7 @@ title: ROS2 with Rust
 draft: false
 tags: 
 aliases:
+date: 2025-01-31
 ---
 ## Rust Programming Language, ROS2
 > [rclrs](https://github.com/ros2-rust/ros2_rust.git) ROS2 Rust crate

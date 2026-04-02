@@ -5,6 +5,7 @@ tags:
   - F1Tenth
 aliases:
   - Basic Drive
+date: 2025-11-30
 ---
 ## Basic move_V0
 ![[LiDAR Sector.png|400]]

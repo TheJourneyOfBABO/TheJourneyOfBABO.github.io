@@ -4,6 +4,7 @@ draft: false
 tags:
   - F1Tenth
 aliases:
+date: 2025-11-30
 ---
 ## Lightweight 2D Simulator Built with ROS
 [F1Tenth Gym - Github](https://github.com/f1tenth/f1tenth_gym_ros)

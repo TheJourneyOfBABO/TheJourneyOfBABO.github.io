@@ -4,6 +4,7 @@ draft: false
 tags:
   - F1Tenth
 aliases:
+date: 2025-11-30
 ---
 ## Update Platform Design (Lower it)
 From the last [[F1Tenth Build]], redesigned the platform design so can lower the centre of weight. Quick printed with MDF Laser cut. 

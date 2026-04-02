@@ -4,6 +4,7 @@ draft: false
 tags: 
 aliases:
   - Week 2
+date: 2025-08-30
 ---
 ## Week 2 (July 7 - July 11)
 ### C++ Study & Algorithm Study

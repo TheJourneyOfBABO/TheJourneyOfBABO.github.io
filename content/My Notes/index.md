@@ -57,4 +57,5 @@ longform:
   sceneTemplate: templates/chapter.md
   ignoredFiles: []
 title: My Notes
+date: 2025-01-21
 ---

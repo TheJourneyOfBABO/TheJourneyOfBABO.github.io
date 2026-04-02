@@ -3,6 +3,7 @@ title: Quartz Update Graph View Setting
 draft: false
 tags: 
 aliases:
+date: 2025-02-18
 ---
 > Series of How to build my [[Quartz-Blog]]
 

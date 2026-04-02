@@ -6,6 +6,7 @@ tags:
   - "#rust"
   - "#rclrs"
 aliases:
+date: 2025-06-29
 ---
 ## [ROS2 for Rust (rclrs)](https://github.com/ros2-rust/ros2_rust)
 **Write ROS2 applications in Rust**

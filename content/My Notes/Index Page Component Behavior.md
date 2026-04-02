@@ -3,6 +3,7 @@ title: Index Page Component Behavior
 draft: false
 tags: 
 aliases:
+date: 2025-08-19
 ---
 > Series of How to build my [[Quartz-Blog]]
 

@@ -5,6 +5,7 @@ tags:
   - F1Tenth
   - 3DLiDAR
 aliases:
+date: 2025-11-30
 ---
 ## 3D SLAM - F1Tenth Platform
 

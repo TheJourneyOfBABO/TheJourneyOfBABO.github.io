@@ -6,6 +6,7 @@ tags:
   - "#ubuntu"
   - "#setup"
   - "#zsh"
+date: 2025-07-09
 ---
 ZSH + Oh My Zsh 기반 셸 환경 설정 가이드. 자동완성, 문법 하이라이팅, ROS2 alias 설정을 포함함.
 

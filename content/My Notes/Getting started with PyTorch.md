@@ -5,6 +5,7 @@ tags:
   - "#pytorch"
   - "#torchvision"
 aliases:
+date: 2025-05-23
 ---
 PyTorch. Open-source machine learning library. Makes it easy to build and train Neural Networks.
 ## Dataset vs DataLoader

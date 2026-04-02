@@ -5,7 +5,7 @@ tags:
   - "#internship"
 aliases:
   - Week 1
-date: 2025-07-31
+date: 2025-08-30
 ---
 ## Week 1 (June 30 - July 4)
 ### C++ Study & Algorithm Study

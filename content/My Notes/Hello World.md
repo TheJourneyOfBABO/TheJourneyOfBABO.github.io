@@ -3,6 +3,7 @@ title: Hello World
 draft: false
 tags: 
 aliases:
+date: 2025-02-13
 ---
 ## Hello there
 good to see you

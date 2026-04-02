@@ -3,6 +3,7 @@ title: 2025대회 규정정리
 draft: true
 tags: 
 aliases:
+date: 2025-04-26
 ---
 
 # EV 자율주행 경진대회

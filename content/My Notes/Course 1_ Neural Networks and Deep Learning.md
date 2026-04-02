@@ -5,6 +5,7 @@ tags:
   - "#deep_learning"
 aliases:
   - "Course 1: Neural Networks and Deep Learning"
+date: 2025-04-02
 ---
 ## What is a Neural Network?
 A neural network is a computational model inspired by how biological neurons work in the brain. At its core, it's a system that learns to map inputs to outputs by finding patterns in data.

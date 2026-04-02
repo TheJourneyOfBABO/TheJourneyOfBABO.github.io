@@ -4,6 +4,7 @@ draft: false
 tags: 
 aliases:
   - Week 3
+date: 2025-08-30
 ---
 ## Week 3 (July 14 - July 18)
 ### C++ Study & Algorithm Study

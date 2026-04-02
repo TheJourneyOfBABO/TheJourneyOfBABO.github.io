@@ -4,6 +4,7 @@ draft: false
 tags: 
 aliases:
   - MiRu
+date: 2023-12-30
 ---
 ## MiRu
 > **Since 09.2023 / [Github Page](https://github.com/miru-ae)**
