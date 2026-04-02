@@ -7,6 +7,7 @@ tags:
   - "#setup"
 aliases:
   - ubuntu basic setup
+date: 2026-04-02
 ---
 I've noticed that many friends who are starting to use Linux (particularly Ubuntu) struggle with terminal usage. Based on my experience and terminal setup, I'd like to share some tips that can significantly improve your command-line experience.
 
