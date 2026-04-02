@@ -1,7 +1,7 @@
 ---
 title: Welcome to The Journey of BABO
 aliases:
-  - Front Page
+  - Front page
 ---
 # Hi there, I'm Jisang
 
