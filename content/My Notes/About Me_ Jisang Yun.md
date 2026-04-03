@@ -10,7 +10,6 @@ date: 2026-02-03
 
 **Integrated MS/PhD Student in Automotive Engineering**
 
-📱 +821072843334  
 📧 jisangyun@hanyang.ac.kr  
 📍 Seoul, South Korea
 
