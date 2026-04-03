@@ -8,9 +8,9 @@ tags:
   - "#zsh"
 date: 2025-07-09
 ---
-ZSH + Oh My Zsh 기반 셸 환경 설정 가이드. 자동완성, 문법 하이라이팅, ROS2 alias 설정을 포함함.
+A shell environment setup guide based on ZSH + Oh My Zsh. Includes autocompletion, syntax highlighting, and ROS2 alias configuration.
 
-> 전체 터미널 셋업 (Neovim, Tmux, Lazygit 포함)은 [[Complete Terminal Setup Guide for Ubuntu]] 참고.
+> For the full terminal setup (including Neovim, Tmux, and Lazygit), see [[Complete Terminal Setup Guide for Ubuntu]].
 
 ---
 
