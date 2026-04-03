@@ -41,16 +41,19 @@ export const defaultContentPageLayout: PageLayout = {
         { Component: Component.ReaderMode() },
       ],
     }),
-    Component.DesktopOnly(
-      Component.RecentNotes({
-        title: "Recent Writing",
-        limit: 3,
-        filter: (f) =>
-          f.slug! !== "My-Notes/index" &&
-          !f.frontmatter?.noindex,
-        linkToMore: "My-Notes/" as SimpleSlug,
-      }),
-    ),
+    Component.ConditionalRender({
+      component: Component.DesktopOnly(
+        Component.RecentNotes({
+          title: "Recent Writing",
+          limit: 3,
+          filter: (f) =>
+            f.slug! !== "My-Notes/index" &&
+            !f.frontmatter?.noindex,
+          linkToMore: "My-Notes/" as SimpleSlug,
+        }),
+      ),
+      condition: (page) => page.fileData.slug === "index",
+    }),
     Component.DesktopOnly(Component.TableOfContents()),
   ],
   right: [
