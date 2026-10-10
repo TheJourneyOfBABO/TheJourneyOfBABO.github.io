@@ -1,52 +1,33 @@
 ---
-title: Welcome to The Journey of BABO
+title: The Journey of BABO
 aliases:
   - Front page
 ---
-# Hi there, I'm Jisang
+![[The Journey of Babo Logo.jpg|300]]
 
-I'm an **Automotive Software Engineering** graduate from **Hanyang University** (Feb. 2026), now pursuing an **integrated MS/PhD program** at **AILAB** (Automotive Intelligence Laboratory) as part of the **Planning team**. I work at the intersection of **Software**, **Robotics**, **AI**, and **Autonomous Driving** — more about me at [[About Me_ Jisang Yun]].
+> **BABO** — *Boundless Adventure in Bridging Opportunities.*
+> In Korean, *babo (바보)* means "dummy" — staying curious and never stopping learning.
 
-## Current Activities
+## Hi, I'm Jisang
 
-- Integrated MS/PhD student at **AILAB**, Hanyang University — Planning team (Mar. 2026~)
-- **A1 Challenge 2026** — End-to-end autonomous racing (F1Tenth scale)
-- **DDS (Data Distribution Service)** project — vehicle interface standardization with CARLA simulator integration
-- Advisor of **[[MIRU]]** — founded the club in Sep. 2023, now mentoring the next generation
+Integrated MS/PhD student at **AILAB**, Hanyang University (Planning team), working on **Motion Planning** and **End-to-End Driving**. → [[About Me_ Jisang Yun|About Me]]
 
-## Interests
+## Now
 
-Motion Planning · End-to-End Driving · Rust
+- **A1 Challenge 2026** — end-to-end autonomous racing
+- **DDS Vehicle Interface** — CARLA simulator integration (early stage)
+- Advisor of **[[MIRU]]**, the club I founded in Sep. 2023
 
-## Background
+## Explore
 
-- Traveled to over 12 countries; worked in Australia on a Working Holiday visa
-- Committed to **exploring, learning, and growing beyond boundaries**
+- [[projects/index|Projects]] — F1Tenth, AILAB internship, MIRU
+- [[research/index|Research]] — paper reviews and research notes
+- [[study/index|Study]] — C++, algorithms, deep learning, robotics
+- [[guides/index|Guides]] — Ubuntu & dev environment setup
+- [[personal/index|Personal]] — travel and reflections
 
----
+## Highlights
 
-![[The Journey of Babo Logo.jpg|500]]
-
-# Welcome to The Journey of BABO
-
-> Building my second brain with [[Quartz-Blog]]
-
-**BABO** stands for **"Boundless Adventure in Bridging Opportunities."**
-In Korean, _babo (바보)_ means **"dummy"** — and I wear that proudly.
-Being a _babo_ means staying curious, embracing new ideas, and never stopping learning.
-
-# Projects
-
-## [[MIRU]] — Mobile Intelligent Robotics Union
-> Founded Sep. 2023 · Rebranded as a college-wide engineering club · Now serving as advisor
-
-## A1 Challenge 2026
-> End-to-end autonomous racing (F1) — ongoing
-
-## DDS Vehicle Interface Project
-> CARLA simulator integration & vehicle interface standardization — early stage
-
-## F1Tenth(RoboRacer)
-> [[projects/f1tenth/index|F1Tenth]] — 2025 ICCAS (2nd place qualifying), Global Innovation Festa (1st place overall)
+- **[[projects/f1tenth/index|F1Tenth]]** — 1st overall at Global Innovation Festa, 2nd in qualifying at ICCAS 2025
 
 ![[MiRuCar_3dlidar+cam_Photo_2025-05-16-12-52-58 006.jpeg|550]]
