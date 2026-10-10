@@ -1,12 +1,12 @@
 ---
 title: Debug (C++)
-draft: false
-tags: 
+description: "중단점과 변수 추적으로 논리 오류를 찾는 디버깅 방법"
+tags:
+  - study/cpp
 aliases:
   - 디버깅 (C++)
 date: 2025-06-16
 ---
-## Debugging
 > **가장 뛰어난 오류 탐색 방법, 디버깅**
 > 문법 오류나 논리 오류를 찾아 바로잡는 과정
 
@@ -29,6 +29,5 @@ date: 2025-06-16
 - 자료형 범위 오류 찾아보기
   (우리가 생각 하는 수의 범위 넘어감_의도치 않게 음수 출력 등)
 
----
-## Next
-[[Arrays, List and Vectors]]
+## See also
+- [[Arrays, List and Vectors]]

@@ -1,11 +1,12 @@
 ---
 title: Linux Commands and Terminal Commands Summary
-draft: false
+description: "Cheat sheet of essential Linux shell commands, permissions, and APT"
 tags:
-  - "#linux"
-aliases:
+  - guide/linux
 date: 2025-03-14
 ---
+A quick reference of the Linux commands I use most, from navigating the file system to permissions and package management.
+
 ## Basic Shell Concepts
 
 ### What is a Shell?

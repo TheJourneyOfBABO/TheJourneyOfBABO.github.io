@@ -1,8 +1,8 @@
 ---
 title: Arrays, List and Vectors
-draft: false
-tags: 
-aliases:
+description: "배열, 연결 리스트, 벡터의 특징과 차이"
+tags:
+  - study/algorithms
 date: 2025-02-03
 ---
 ## Basic of Array and List
@@ -63,6 +63,5 @@ int main() {
 }
 ```
 
----
-## Next
-[[Range Sum (or Prefix Sum)]]
+## See also
+- [[Range Sum (or Prefix Sum)]]

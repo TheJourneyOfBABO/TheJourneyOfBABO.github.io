@@ -1,14 +1,15 @@
 ---
 title: "Livox Mid-360 3D LiDAR Setup"
-draft: false
+description: "Network setup and ROS 2 driver for the Livox Mid-360 3D LiDAR"
 tags:
-  - LiDAR
-  - 3DLiDAR
+  - study/robotics
+  - lidar
 aliases:
   - Livox Mid-360 setup
 date: 2025-04-09
 ---
-## [Livox Mid-360 3D LiDAR](https://www.livoxtech.com/mid-360)
+Setting up the [Livox Mid-360](https://www.livoxtech.com/mid-360) 3D LiDAR with ROS 2 (`livox_ros_driver2`).
+
 ![[mid360-3d-lidar.png|500]]
 ## How to setup?
 1. From the [User-Manual](https://terra-1-g.djicdn.com/851d20f7b9f64838a34cd02351370894/Livox/Livox_Mid-360_User_Manual_EN.pdf) page10 connection part, setup the Network.
@@ -17,7 +18,7 @@ date: 2025-04-09
     ![[livox_network_setup.png|450]]
 
 2. Follow the instruction at the [livox_ros_driver-github](https://github.com/Livox-SDK/livox_ros_driver2). 
-	```
+	```bash
 	git clone https://github.com/Livox-SDK/livox_ros_driver2.git ws_livox/src/livox_ros_driver2
 	```
 - Check the Serial Number. And last two digit used for the LiDAR ip address.   
@@ -25,11 +26,11 @@ date: 2025-04-09
 
 	![[livox-mid360-code.jpg|300]]
 - Update IP address inside the config file(MID360_config.json): set the four `host_net_info` IPs to the computer IP (`192.168.1.50`) and `lidar_configs[0].ip` to the LiDAR IP (`192.168.1.158`)
-	```
+	```bash
 	~/ws_livox/src/livox_ros_driver2/config (master*) » vim MID360_config.json
 	```
 	
-	```
+	```json
 	{
 	  "lidar_summary_info" : {
 	    "lidar_type": 8
@@ -73,14 +74,14 @@ date: 2025-04-09
 	}
 	```
 - Build file
-	```
+	```bash
 	~/ws_livox/src/livox_ros_driver2 (master*) » ./build.sh humble      
 	```
 - Launch with rviz2
-	```
+	```bash
 	~/ws_livox » source install/setup.zsh
 	```
-	```
+	```bash
 	~/ws_livox » ros2 launch livox_ros_driver2 rviz_MID360_launch.py
 	```
 ## Result
@@ -93,7 +94,6 @@ date: 2025-04-09
  > [!tip]
 > - You can also change point clouds publish-frequency(publish_freq = 10.0 / 20.0 / 50.0 ...)
 
----
-## Reference
+## References
 - [livox_ros_driver2_github](https://github.com/Livox-SDK/livox_ros_driver2)
 - [livox_mid-360_user_manual_en](https://terra-1-g.djicdn.com/851d20f7b9f64838a34cd02351370894/Livox/Livox_Mid-360_User_Manual_EN.pdf)

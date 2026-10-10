@@ -1,15 +1,14 @@
 ---
 title: "ROS2 for Rust (rclrs): System-wide Installation"
-draft: false
+description: "Installing the ROS 2 Rust bindings (rclrs) once, system-wide, under /opt"
 tags:
-  - "#ros2"
-  - "#rust"
-  - "#rclrs"
-aliases:
+  - study/robotics
+  - ros2
+  - rust
 date: 2025-06-21
 ---
-## [ROS2 for Rust (rclrs)](https://github.com/ros2-rust/ros2_rust)
-**Write ROS2 applications in Rust**
+[rclrs](https://github.com/ros2-rust/ros2_rust) lets you write ROS 2 applications in Rust. This note installs it once, system-wide, instead of in every workspace.
+
 ## Basic Installation Method from GitHub
 
 ```bash
@@ -54,7 +53,7 @@ git clone https://github.com/ros2-rust/ros2_rust.git src/ros2_rust
 ```
 
 If you encounter a permission error:
-```
+```bash
 fatal: could not create work tree dir 'src/ros2_rust': Permission denied
 ```
 

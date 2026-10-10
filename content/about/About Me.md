@@ -1,7 +1,6 @@
 ---
 title: "About Me"
-draft: false
-tags: 
+description: "Resume of Jisang Yun: education, experience, projects, and awards"
 aliases:
   - Resume
 date: 2025-05-30

@@ -1,16 +1,14 @@
 ---
 title: "Lab 4: Follow the Gap"
-draft: false
+description: "Follow the Gap with adaptive scan thresholds, tested in simulation and on the real car"
 tags:
-  - F1Tenth
-aliases:
+  - project/f1tenth
 date: 2025-02-10
 ---
-## Following the Gap
 > [Lecture_Note](https://docs.google.com/presentation/d/1icJ0SHz2Q6JybGRywRTIHEpZbuQ_K2lmvEoJ-sYO4C4/edit#slide=id.p22) / [Our Code](https://github.com/JisangYun00/f1sim_ws/tree/master/src/lecture_ws/f1tenth_lab4_template)
-### Method
+## Method
 ![[Follow the gap Tweak1.png]]
-### Adaptive Scan-Threshold
+## Adaptive Scan-Threshold
 > **Adjusting Scan Threshold with minimum range**
 ``` cpp
             {0.15, 0.4},  // Min
@@ -33,20 +31,17 @@ date: 2025-02-10
     double right_wing = -(M_PI / 2.7);
 
 ```
-### Simulation Workspace
+## Simulation Workspace
 This is with Bubble Method
 ![[Follow-the-Gap-levine-obs.gif]]
 ![[Gap_follow_sim(obs).gif]]
 
 **Race Track Map**
 ![[Gap_Follow_sim(2025.02.09).gif]]
-### Real World Test
+## Real World Test
 ![[gap-follow-test.mp4]]
 
-
-
----
-### Reference
-[F1Tenth_Lab4_Template](https://github.com/f1tenth/f1tenth_lab4_template)
-[Disparity Node Method](https://www.nathanotterness.com/2019/04/the-disparity-extender-algorithm-and.html)
-[disparity Node Github](https://github.com/pmusau17/Platooning-F1Tenth?tab=readme-ov-file)
+## References
+- [F1Tenth_Lab4_Template](https://github.com/f1tenth/f1tenth_lab4_template)
+- [Disparity Node Method](https://www.nathanotterness.com/2019/04/the-disparity-extender-algorithm-and.html)
+- [disparity Node Github](https://github.com/pmusau17/Platooning-F1Tenth?tab=readme-ov-file)

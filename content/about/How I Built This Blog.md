@@ -1,12 +1,8 @@
 ---
 title: "How I Built This Blog"
-draft: false
-tags: 
-aliases:
+description: "How I publish my Obsidian notes as a website with Quartz"
 date: 2025-01-28
 ---
-
-
 > To build My new Blog, I used [Quartz](https://quartz.jzhao.xyz/)
 > [Obsidian](https://obsidian.md/) - Second Brain
 

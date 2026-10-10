@@ -1,10 +1,9 @@
 ---
 title: Getting started with PyTorch
-draft: false
+description: "PyTorch basics: Dataset vs. DataLoader and batch size"
 tags:
-  - "#pytorch"
-  - "#torchvision"
-aliases:
+  - study/deep-learning
+  - pytorch
 date: 2025-05-23
 ---
 PyTorch. Open-source machine learning library. Makes it easy to build and train Neural Networks.
@@ -22,4 +21,3 @@ How many examples you show to your model at once during training.
 **Large batch (like 128-512):**
 - Model sees many examples at once
 - Like taking fewer but bigger steps
-

@@ -1,12 +1,12 @@
 ---
 title: GitHub Token Setup Guide
-draft: false
+description: "Create a personal access token and use it for Git over HTTPS"
 tags:
-  - "#git"
-  - "#github"
-aliases:
+  - guide/git
 date: 2025-08-09
 ---
+GitHub no longer accepts account passwords for Git operations over HTTPS. Use a personal access token instead.
+
 ## Generate Token
 1. Go to GitHub Settings → Developer settings → Personal access tokens → Tokens (classic)
 2. Click "Generate new token"
@@ -38,8 +38,5 @@ git config --global credential.helper cache
 - Don't commit it to repositories
 - Delete unused tokens from GitHub settings
 
-
-
----
-**Followed by**
-[[Complete Terminal Setup Guide for Ubuntu]]
+## See also
+- [[Complete Terminal Setup Guide for Ubuntu]]

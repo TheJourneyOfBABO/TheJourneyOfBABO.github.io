@@ -1,16 +1,15 @@
 ---
 title: "AILAB Internship — Week 1"
-draft: false
+description: "C++ and algorithm basics, Deep Learning Course 1, and an MNIST classification project"
 tags:
-  - "#internship"
+  - project/ailab-internship
 aliases:
   - Week 1
 date: 2025-06-30
 ---
+Week 1 of the [[projects/ailab-internship-2025/index|AILAB Summer Internship 2025]] (June 30 – July 4).
 
-## Week 1 (June 30 - July 4)
-
-### C++ Study & Algorithm Study
+## C++ Study & Algorithm Study
 
 **Algorithm Topics:**
 
@@ -27,7 +26,7 @@ date: 2025-06-30
 - Chapter 4: Objects, constructors, class variables
   - [[C++ 4-1. The world is made of objects|4-1. The world is made of objects]]
 
-### ML & Python Study
+## ML & Python Study
 
 **Deep Learning:**
 
@@ -43,8 +42,6 @@ date: 2025-06-30
 - Topic: Image classification
 - MNIST Dataset
 - Model architecture implementation from scratch
-
----
 
 ## References
 

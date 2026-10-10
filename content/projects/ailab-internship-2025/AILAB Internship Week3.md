@@ -1,13 +1,15 @@
 ---
 title: "AILAB Internship — Week 3"
-draft: false
-tags: 
+description: "Trees, C++ smart pointers and threads, deep RNNs, and a full training pipeline"
+tags:
+  - project/ailab-internship
 aliases:
   - Week 3
 date: 2025-06-30
 ---
-## Week 3 (July 14 - July 18)
-### C++ Study & Algorithm Study
+Week 3 of the [[projects/ailab-internship-2025/index|AILAB Summer Internship 2025]] (July 14 – July 18).
+
+## C++ Study & Algorithm Study
 **Algorithm Topics:**
 - Trees
 
@@ -18,7 +20,7 @@ date: 2025-06-30
 
 **Project:**
 - Coding Test
-### ML & Python Study
+## ML & Python Study
 **Deep Learning:**
 - Course 4: Convolutional Neural Networks - Why ResNets Work? / Region Proposals (Optional)
 - Course 5: Sequence Models - Deep RNNs

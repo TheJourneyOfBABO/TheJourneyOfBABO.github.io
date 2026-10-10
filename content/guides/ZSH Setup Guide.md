@@ -1,11 +1,9 @@
 ---
 title: ZSH Setup Guide
-draft: false
+description: "Zsh and Oh My Zsh setup with plugins and ROS 2 aliases"
 tags:
-  - "#linux"
-  - "#ubuntu"
-  - "#setup"
-  - "#zsh"
+  - guide/linux
+  - ros2
 date: 2025-07-09
 ---
 A shell environment setup guide based on ZSH + Oh My Zsh. Includes autocompletion, syntax highlighting, and ROS2 alias configuration.
@@ -65,16 +63,16 @@ alias lz="lazygit"
 Apply changes: `source ~/.zshrc`
 
 **Little tips for ROS2**
-```
+```bash
 # ROS2 environment setup
 echo "source /opt/ros/humble/setup.zsh" >> ~/.zshrc
 ```
 
 **ROS2 autocomplete**
-```
+```bash
 pip3 install argcomplete
 ```
-```
+```bash
 # ROS2 terminal autocomplete activate
 echo "source /opt/ros/humble/share/ros2cli/environment/ros2-argcomplete.zsh" >> ~/.zshrc
 ```

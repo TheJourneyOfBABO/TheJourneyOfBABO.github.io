@@ -1,10 +1,8 @@
 ---
 title: Complete Terminal Setup Guide for Ubuntu
-draft: false
+description: "Bash completion, fzf, Neovim, Tmux, and Lazygit setup for Ubuntu"
 tags:
-  - "#linux"
-  - "#ubuntu"
-  - "#setup"
+  - guide/linux
 aliases:
   - ubuntu basic setup
 date: 2025-06-21
@@ -36,7 +34,7 @@ vim ~/.inputrc
 ```
 
 Add the following:
-```
+```bash
 set completion-ignore-case on
 set show-all-if-ambiguous on
 set colored-stats on
@@ -89,7 +87,7 @@ source ~/.bashrc
 sudo apt install ninja-build gettext cmake unzip curl
 ```
 
-```
+```bash
 # Build from source
 git clone https://github.com/neovim/neovim
 cd neovim && git checkout stable
@@ -187,7 +185,7 @@ Install plugins: Start tmux, then press `Ctrl + b` + `I`
 Lazygit provides a simple terminal UI for Git commands, making Git operations visual and intuitive without memorizing complex commands.
 
 ### Installation
-```
+```bash
 LAZYGIT_VERSION=$(curl -s "https://api.github.com/repos/jesseduffield/lazygit/releases/latest" | \grep -Po '"tag_name": *"v\K[^"]*')
 curl -Lo lazygit.tar.gz "https://github.com/jesseduffield/lazygit/releases/download/v${LAZYGIT_VERSION}/lazygit_${LAZYGIT_VERSION}_Linux_x86_64.tar.gz"
 tar xf lazygit.tar.gz lazygit
@@ -195,7 +193,7 @@ sudo install lazygit -D -t /usr/local/bin/
 ```
 
 ### Install for Jetson Orin Nano
-```
+```bash
 # Get the latest version of lazygit
 LAZYGIT_VERSION=$(curl -s "https://api.github.com/repos/jesseduffield/lazygit/releases/latest" | \grep -Po '"tag_name": *"v\K[^"]*')
 

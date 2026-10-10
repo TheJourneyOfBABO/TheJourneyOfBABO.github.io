@@ -1,13 +1,15 @@
 ---
 title: "AILAB Internship — Week 2"
-draft: false
-tags: 
+description: "Sorting and graph algorithms, C++ inheritance and STL, and CNNs with ResNets"
+tags:
+  - project/ailab-internship
 aliases:
   - Week 2
 date: 2025-06-30
 ---
-## Week 2 (July 7 - July 11)
-### C++ Study & Algorithm Study
+Week 2 of the [[projects/ailab-internship-2025/index|AILAB Summer Internship 2025]] (July 7 – July 11).
+
+## C++ Study & Algorithm Study
 **Algorithm Topics:**
 - Sorting, BFS/DFS, binary search, greedy algorithms, graphs
 
@@ -16,7 +18,7 @@ date: 2025-06-30
 - Day 7: Operators
 - Day 10: STL containers
 
-### ML & Python Study
+## ML & Python Study
 **Deep Learning:**
 - Course 2: Improving Deep Neural Networks - RMSprop
 - Course 3: Structuring Machine Learning Projects

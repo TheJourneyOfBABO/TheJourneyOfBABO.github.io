@@ -1,13 +1,13 @@
 ---
 title: F1Tenth Simulator
-draft: false
+description: "Setting up the F1Tenth Gym ROS 2D simulator, plus our Docker and Rust additions"
 tags:
-  - F1Tenth
-aliases:
+  - project/f1tenth
+  - simulation
 date: 2025-02-05
 ---
-## Lightweight 2D Simulator Built with ROS
-[F1Tenth Gym - Github](https://github.com/f1tenth/f1tenth_gym_ros)
+[F1Tenth Gym ROS](https://github.com/f1tenth/f1tenth_gym_ros) is a lightweight 2D simulator built with ROS.
+
 ![[f1tenth_sim_ws.png]] 
 >[!Note]
 > Fast Prototyping, Motion Planning, Racing Algorithm Test
@@ -27,7 +27,4 @@ so inside the `sim_ws/src` folder, you can also see the `rust_ws` package, which
 - [x] [[Lab3 Wall Following]]
 - [x] [[Lab4 Follow the Gap]]
 
-
 - [ ] SLAM
-
-

@@ -1,8 +1,9 @@
 ---
 title: AutoDRIVE RoboRacer Setup Guide
-draft: false
+description: "Setting up the AutoDRIVE RoboRacer simulator and devkit for the ICRA 2025 sim race"
 tags:
-  - F1Tenth
+  - project/f1tenth
+  - simulation
 aliases:
   - autodrive install
 date: 2025-05-13
@@ -65,7 +66,7 @@ _Note: **`Local installation recommended`** if Docker setup encounters issues_
     
 2. **Expected directory structure:**
     
-    ```
+    ```text
     sim_autodrive/
     ├── AutoDRIVE Simulator.x86_64
     ├── Data/
@@ -162,7 +163,7 @@ ros2 run autodrive_roboracer teleop_keyboard
 
 ## Architecture
 
-```
+```text
 ┌─────────────────┐    WebSocket     ┌─────────────────┐
 │   AutoDRIVE     │◄────────────────►│   AutoDRIVE     │
 │   Simulator     │    Bridge        │   Devkit        │
@@ -206,8 +207,5 @@ ros2 run autodrive_roboracer teleop_keyboard
 
 ![[autodrive_dev_rviz.png|700]]
 
-
-
----
-## Reference
-[ROBORACER ICRA 2025 webpage](https://autodrive-ecosystem.github.io/competitions/roboracer-sim-racing-icra-2025/#resources)
+## References
+- [ROBORACER ICRA 2025 webpage](https://autodrive-ecosystem.github.io/competitions/roboracer-sim-racing-icra-2025/#resources)

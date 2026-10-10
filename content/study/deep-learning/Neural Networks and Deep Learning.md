@@ -1,8 +1,8 @@
 ---
 title: "Deep Learning Specialization 1: Neural Networks and Deep Learning"
-draft: false
+description: "Notes on Course 1 of the Deep Learning Specialization: neural network basics and logistic regression"
 tags:
-  - "#deep_learning"
+  - study/deep-learning
 aliases:
   - "Course 1: Neural Networks and Deep Learning"
 date: 2025-04-02
@@ -16,7 +16,7 @@ The most basic neural network has this structure:
 **Input → Neuron → Output**
 
 For housing price prediction:
-```
+```bash
 House Size (sq ft) → [Neuron] → Predicted Price ($)
 ```
 
@@ -30,7 +30,7 @@ This is essentially a sophisticated version of finding the "best fit line" throu
 ### ReLU Function - The Popular Choice
 **ReLU = "Rectified Linear Unit"**
 #### What ReLU Looks Like:
-```
+```bash
 Price |
       |         /
       |        /
@@ -50,7 +50,7 @@ Price |
 
 ### Building Bigger Networks
 To create more powerful neural networks, you stack these basic "neurons" together like building blocks:
-```
+```bash
 Size → [Neuron] → [Neuron] → [Neuron] → Price
        Layer 1    Layer 2    Layer 3
 ```
@@ -58,7 +58,7 @@ Size → [Neuron] → [Neuron] → [Neuron] → Price
 Each layer can have multiple neurons, and each neuron typically uses an activation function like ReLU to introduce non-linearity, allowing the network to learn complex patterns.
 
 #### Multiple Input Example - More Realistic
-```
+```text
 Size           ────┐
 # Bedrooms     ────┼──→ [Hidden Layer] ──→ [Output] ──→ Price
 Zip Code       ────┤      Neurons              y
@@ -122,7 +122,7 @@ Each application uses different types of neural networks (NN, CNN, RNN) because 
 **What it is:** The basic neural network where every neuron connects to every neuron in the next layer.
 
 **Structure:**
-```
+```bash
 Input → Hidden Layer → Output
   |         |           |
 Every input connects to every hidden neuron
@@ -141,7 +141,7 @@ Every hidden neuron connects to every output
 **What it is:** Specialized for **images and spatial data**. Uses "filters" that slide across the image to detect patterns.
 
 **How it works:**
-```
+```bash
 Image → [Detect edges] → [Detect shapes] → [Detect objects] → Classification
 ```
 
@@ -163,7 +163,7 @@ Image → [Detect edges] → [Detect shapes] → [Detect objects] → Classifica
 **What it is:** Designed for **sequential data** - things that happen in order over time.
 
 **Key Feature - Memory:**
-```
+```bash
 Input₁ → [Neuron + Memory] → Output₁
                 ↓
 Input₂ → [Neuron + Memory] → Output₂
@@ -322,7 +322,7 @@ Where:
 - **(x⁽ᵐ⁾, y⁽ᵐ⁾)** = m-th (last) training example
 ### Matrix Notation
 #### Input Matrix X
-```
+```bash
 X = [x⁽¹⁾ x⁽²⁾ ... x⁽ᵐ⁾]
 ```
 - **X ∈ ℝⁿˣᵐ** = X is a matrix with n features and m examples
@@ -330,7 +330,7 @@ X = [x⁽¹⁾ x⁽²⁾ ... x⁽ᵐ⁾]
     - **nₓ** = number of input features
     - **m** = number of training examples
 #### Output Vector Y
-```
+```bash
 Y = [y⁽¹⁾ y⁽²⁾ ... y⁽ᵐ⁾]
 ```
 - **Y ∈ ℝ¹ˣᵐ** = Y is a row vector with m examples
@@ -416,7 +416,7 @@ This explains why the gradient ∇_w J contains the terms (ŷ - y) and x when us
 
 ### The Chain Rule Breakdown
 For J(w) = ½(ŷ - y)² and ŷ = σ(w^T x), we use the chain rule:
-```
+```bash
 ∇_w J = ∂J/∂ŷ × ∂ŷ/∂z × ∂z/∂w
 ```
 where z = w^T x (the linear combination before sigmoid).
@@ -439,7 +439,7 @@ where z = w^T x (the linear combination before sigmoid).
 - **Purpose**: Determines how much to adjust each weight
 
 ### Final Gradient Formula
-```
+```bash
 ∇_w J = (ŷ - y) × ŷ(1 - ŷ) × x
          ↑        ↑         ↑
       Error   Sigmoid    Input
@@ -461,7 +461,7 @@ The ŷ(1 - ŷ) term creates issues:
 
 ### Why Cross-Entropy is Better
 Cross-entropy loss eliminates the problematic ŷ(1 - ŷ) term, giving:
-```
+```bash
 ∇_w J = (ŷ - y) × x
 ```
 
@@ -546,13 +546,13 @@ The logistic loss function **heavily penalizes wrong confident predictions** whi
 
 ### In Practice
 #### For One Example:
-```
+```bash
 Actual: y = 1
 Predicted: ŷ = 0.8
 Loss: L(0.8, 1) = -log(0.8) = 0.22
 ```
 #### For Entire Dataset:
-```
+```bash
 Example 1: L(ŷ⁽¹⁾, y⁽¹⁾) = 0.22
 Example 2: L(ŷ⁽²⁾, y⁽²⁾) = 0.15
 Example 3: L(ŷ⁽³⁾, y⁽³⁾) = 0.31
@@ -612,7 +612,7 @@ The right side shows the difference between:
 3. **Repeat:** Keep doing this until you reach the bottom
 
 #### The Process:
-```
+```bash
 Start somewhere → Calculate slope → Take step downhill → Repeat
 ```
 
@@ -648,7 +648,7 @@ A **computation graph** is a visual representation of mathematical operations th
 #### The Function: J(a,b,c) = 3(a + bc)
 **Given values:** a = 5, b = 3, c = 2
 #### Visual Representation:
-```
+```text
 a = 5 ──┐
         ├──→ [v = a + u] ──→ [J = 3v] ──→ Final Result
 b = 3 ──┤
@@ -673,7 +673,7 @@ c = 2 ───────┘
 4. **Arrive** at final output
 
 #### Example Trace:
-```
+```bash
 Step 1: u = b × c
         u = 3 × 2 = 6
 
@@ -767,7 +767,7 @@ This tells us: "A small change in 'c' gets multiplied by 3 (through the bc opera
 ---
 ### Neural Network Application
 #### Simple Neural Network Structure:
-```
+```bash
 Input → [Weight × Input + Bias] → [Activation] → Output → [Loss] → Error
   x              z = wx + b         a = σ(z)      ŷ      L(ŷ,y)
 ```
@@ -799,7 +799,7 @@ b = b - learning_rate * dL_db
 
 #### Real Neural Network Example: Email Spam Detection
 **Setup:**
-```
+```bash
 Email features (x) → [w×x + b] → [sigmoid] → Spam probability (ŷ) → Error
 ```
 
@@ -830,35 +830,35 @@ The weights adjust to reduce the spam probability for emails with similar featur
 #### 1. Email Spam Detection
 
 **Forward Propagation:**
-```
+```bash
 Email Text → [Feature Extraction] → [Neural Network] → Spam Probability
 "Buy now!" → [Word Count, Caps, etc.] → [Processing] → 95% Spam
 ```
 
 **Backward Propagation:**
-```
+```bash
 Wrong Prediction ← [Adjust Weights] ← [Calculate Gradients] ← Error Signal
 "Actually Not Spam" ← [Learning] ← [Backprop] ← Large Error
 ```
 #### 2. Image Recognition
 **Forward Propagation:**
-```
+```bash
 Image Pixels → [Convolution] → [Pooling] → [Dense Layer] → "Cat" or "Dog"
 ```
 
 **Backward Propagation:**
-```
+```bash
 Incorrect Label ← [Update Filters] ← [Gradient Flow] ← Prediction Error
 ```
 
 #### 3. Stock Price Prediction
 **Forward Propagation:**
-```
+```bash
 Historical Prices → [LSTM Network] → [Dense Layer] → Tomorrow's Price
 ```
 
 **Backward Propagation:**
-```
+```bash
 Actual Price ← [Adjust Memory] ← [Time-based Gradients] ← Prediction Error
 ```
 
@@ -904,7 +904,7 @@ Actual Price ← [Adjust Memory] ← [Time-based Gradients] ← Prediction Error
 
 ### Key Takeaways
 #### The Complete Learning Loop:
-```
+```bash
 1. Forward Pass: Make prediction
 2. Calculate Error: Compare with truth
 3. Backward Pass: Calculate gradients
@@ -918,7 +918,7 @@ Actual Price ← [Adjust Memory] ← [Time-based Gradients] ← Prediction Error
 - **Automatic adjustment** based on how wrong we are
 
 #### Visual Summary:
-```
+```bash
 Forward Pass (Making Predictions):
 Input → Layer 1 → Layer 2 → ... → Output → Error
 
@@ -959,7 +959,7 @@ This section shows the complete computation graph for logistic regression and ho
 
 ### Forward Propagation (Logistic Regression Recap)
 #### The Complete Forward Flow:
-```
+```bash
 Inputs (x₁, x₂) → Linear Combination (z) → Sigmoid (a) → Loss (L)
 ```
 
@@ -975,7 +975,7 @@ Inputs (x₁, x₂) → Linear Combination (z) → Sigmoid (a) → Loss (L)
 ---
 ### Backward Propagation (Derivatives)
 #### The Backward Flow:
-```
+```bash
 ∂L/∂L ← ∂L/∂a ← ∂L/∂z ← ∂L/∂w₁, ∂L/∂w₂, ∂L/∂b
 ```
 

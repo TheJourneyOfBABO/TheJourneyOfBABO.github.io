@@ -1,5 +1,6 @@
 ---
 title: The Journey of BABO
+description: "Jisang Yun's notes on autonomous driving, robotics, and the things I learn along the way"
 aliases:
   - Front page
 ---

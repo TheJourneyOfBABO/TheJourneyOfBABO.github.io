@@ -1,13 +1,12 @@
 ---
 title: "Lab 2: Automatic Emergency Braking"
-draft: false
+description: "Automatic emergency braking using time-to-collision (TTC) from LiDAR scans"
 tags:
-  - F1Tenth
+  - project/f1tenth
 aliases:
   - AEB
 date: 2025-02-10
 ---
-## AEB (Automatic Emergency Braking)
 > [Lecture Note](https://docs.google.com/presentation/d/1HQSLPLE-fZ3EN-9PyqMd7-ti7JSLKL7qlrouGFEprU0/edit#slide=id.g10a2bc3b756_0_295) / [Our Code](https://github.com/JisangYun00/f1sim_ws/tree/master/src/lecture_ws/f1tenth_lab2_aeb)
 
 Emergency braking based on the parameter 'Time to collision'
@@ -24,9 +23,8 @@ r_i(t) &: \text{Range between vehicle and object} \\
 $$
 ![[AEB_terminal.png]]
 
-**- Next -**
-[[Lab3 Wall Following]]
+## See also
+- [[Lab3 Wall Following]]
 
----
-### Reference
-[F1Tenth_Lab2_Template](https://github.com/f1tenth/f1tenth_lab2_template)
+## References
+- [F1Tenth_Lab2_Template](https://github.com/f1tenth/f1tenth_lab2_template)

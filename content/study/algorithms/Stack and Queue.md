@@ -1,11 +1,10 @@
 ---
 title: Stack and Queue
-draft: false
-tags: 
-aliases:
+description: "스택(LIFO)과 큐(FIFO)의 개념, 연산, 활용"
+tags:
+  - study/algorithms
 date: 2025-03-27
 ---
-## Stack and Queue
 배열에서 조금 더 발전한 형태의 자료구조
 
 ## Stack (스택)
@@ -35,7 +34,7 @@ date: 2025-03-27
 - 스택과 달리 **양쪽 끝**에서 삽입과 삭제가 이루어짐
 
 ### 큐의 구조
-```
+```text
 [새 값] → [값] [값] [값] [값] [지울 값] → [pop]
         ↑                           ↑
       back                       front
