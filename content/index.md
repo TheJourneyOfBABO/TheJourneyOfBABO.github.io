@@ -15,7 +15,7 @@ Integrated MS/PhD student at **AILAB**, Hanyang University (Planning team), work
 
 ## Now
 
-- **A1 Challenge 2026** — end-to-end autonomous racing
+- **A1 Challenge 2026** — end-to-end autonomous racing: 2nd overall in the simulation round, now preparing for the real-car race with the top 3 teams
 - Advisor of **[[MIRU]]**, the club I founded in Sep. 2023
 
 ## Explore

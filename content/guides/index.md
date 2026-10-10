@@ -1,30 +1,13 @@
 ---
 title: Guides
-description: 따라 하면 되는 환경 설정 가이드
+description: Step-by-step setup guides for Ubuntu and developer tools
 ---
+Step-by-step guides for setting up Ubuntu and the tools I use every day.
 
-Ubuntu 터미널, ZSH, Git 등 개발 환경 설정 가이드입니다.
+## Terminal
+- **[[Complete Terminal Setup Guide for Ubuntu|Terminal Setup]]** — Bash completion, fzf, Neovim, Tmux, and Lazygit
+- **[[ZSH Setup Guide|ZSH Setup]]** — Zsh and Oh My Zsh with plugins and ROS 2 aliases
+- **[[Linux Commands and Terminal Commands Summary|Linux Commands]]** — A cheat sheet of everyday shell commands
 
-```base
-filters:
-  and:
-    - file.ext == "md"
-    - file.inFolder("guides")
-    - "!file.name.startsWith('index')"
-properties:
-  title:
-    displayName: Note
-  file.folder:
-    displayName: Folder
-  date:
-    displayName: Date
-views:
-  - type: table
-    name: All Notes
-    order:
-      - title
-      - date
-    sort:
-      - property: date
-        direction: DESC
-```
+## Git
+- **[[GitHub Token Setup Guide|GitHub Token]]** — Using a personal access token for Git over HTTPS

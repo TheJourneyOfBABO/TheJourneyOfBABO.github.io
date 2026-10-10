@@ -31,7 +31,7 @@ Automotive engineering graduate (Hanyang University, Feb. 2026) now pursuing an 
 **Mar 2026 – Present** | Planning Team
 
 - Conducting research on motion planning and end-to-end autonomous driving
-- Working on A1 Challenge 2026: end-to-end autonomous racing on F1-scale vehicles
+- A1 Challenge 2026 (end-to-end autonomous racing on F1-scale vehicles): placed 2nd overall in the simulation round; now preparing for the real-vehicle race among the top 3 teams
 - Developing DDS (Data Distribution Service) based vehicle interface standardization framework integrated with CARLA simulator (early stage)
 
 #### Research Intern | AILAB (Automotive Intelligence Laboratory, Hanyang University)
@@ -115,6 +115,12 @@ Cultural immersion program with Spanish language training
 ---
 
 ### Awards and Honors
+
+#### 2nd Place (Overall) | A1 Challenge 2026 — Simulation Round
+
+**2026** | End-to-end autonomous racing
+
+- Advanced to the real-vehicle race as one of the top 3 teams
 
 #### 1st Place (Overall) | Global Innovation Festa — F1Tenth Autonomous Racing
 

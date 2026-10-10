@@ -1,6 +1,8 @@
 ---
 title: About
-description: 저와 이 블로그에 대하여
+description: About me and this blog
 ---
+Who I am, and how this blog is built.
 
-저에 대한 소개와 이 블로그를 만든 이야기입니다.
+- **[[About Me]]** — Education, experience, projects, and awards
+- **[[How I Built This Blog]]** — Publishing Obsidian notes with Quartz

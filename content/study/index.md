@@ -1,33 +1,24 @@
 ---
 title: Study
-description: 공부하면서 정리한 학습 노트
+description: Study notes on C++, algorithms, deep learning, and robotics
 ---
+Notes I wrote while studying C++, algorithms, deep learning, and robotics. The C++ and algorithm notes are written in Korean.
 
-C++, 알고리즘, 딥러닝, 로보틱스 등 공부하면서 정리한 노트입니다.
+## C++
+- **[[C++ 3. new and delete|new and delete]]** — Allocating and freeing heap memory
+- **[[C++ 4-1. The world is made of objects|Objects and Classes]]** — Abstraction, encapsulation, and access modifiers
+- **[[Debug (C++)|Debugging]]** — Finding logic errors with breakpoints
 
-```base
-filters:
-  and:
-    - file.ext == "md"
-    - file.inFolder("study")
-    - "!file.name.startsWith('index')"
-properties:
-  title:
-    displayName: Note
-  file.folder:
-    displayName: Topic
-  date:
-    displayName: Date
-views:
-  - type: table
-    name: All Notes
-    groupBy:
-      property: file.folder
-      direction: ASC
-    order:
-      - title
-      - date
-    sort:
-      - property: date
-        direction: DESC
-```
+## Algorithms
+- **[[Time Complexity]]** — Big-O notation and how to estimate running time
+- **[[Arrays, List and Vectors]]** — Arrays vs. linked lists vs. vectors
+- **[[Range Sum (or Prefix Sum)|Range Sum]]** — O(1) range queries with prefix sums
+- **[[Stack and Queue]]** — LIFO and FIFO structures and where they are used
+
+## Deep Learning
+- **[[Neural Networks and Deep Learning]]** — Deep Learning Specialization, Course 1
+- **[[Getting started with PyTorch]]** — Dataset, DataLoader, and batch size
+
+## Robotics
+- **[[Livox Mid-360 Setup]]** — Network and ROS 2 driver setup for a 3D LiDAR
+- **[[rclrs Installation]]** — Installing the ROS 2 Rust bindings system-wide
