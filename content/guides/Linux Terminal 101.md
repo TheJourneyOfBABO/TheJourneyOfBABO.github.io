@@ -12,6 +12,47 @@ The terminal looks intimidating at first: a black window, a blinking cursor, and
 
 If you just want a working setup first, see [[Terminal Setup Basics|Terminal Setup: Basics]], then come back here.
 
+## Quick Reference
+
+The commands you will use from day one. Keep this table handy; the sections below explain how each one works.
+
+| Task | Command |
+| --- | --- |
+| Where am I? / What's here? | `pwd` / `ls -la` |
+| Go somewhere / go home / go back | `cd <dir>` / `cd ~` / `cd -` |
+| Create a directory / file | `mkdir -p <dir>` / `touch <file>` |
+| Read a file | `cat`, `less`, `head`, `tail -f` |
+| Copy / move or rename / delete | `cp -r` / `mv` / `rm -r` |
+| Find files | `find . -name "<pattern>"` |
+| Search inside files | `grep -r "<text>" .` |
+| Edit a file | `nano <file>` or `vim <file>` |
+| Make a script executable | `chmod +x <file>` |
+| Run as administrator | `sudo <command>` |
+| Save output to a file | `cmd > file` / `cmd >> file` |
+| Chain commands | `cmd1 \| cmd2` |
+| Stop / find / kill a program | `Ctrl + C` / `ps aux \| grep <name>` / `kill <PID>` |
+| Install software | `sudo apt update && sudo apt install <package>` |
+| Get help | `<command> --help` / `man <command>` |
+
+### Handy Combinations
+
+Once the basics feel natural, small commands can be combined. Don't worry if the symbols look cryptic: `|` sends one command's output into the next (section 8), `&&` runs the next command only if the first one succeeded, and `>>` appends to a file.
+
+| Task | Command |
+| --- | --- |
+| Find files with "launch" in the name | `ls \| grep launch` |
+| List only the directories here | `ls -l \| grep "^d"` |
+| Find a command you ran before | `history \| grep apt` |
+| Find running ROS 2 processes | `ps aux \| grep ros` |
+| Search for text in all files, with line numbers | `grep -rn "TODO" .` |
+| Show only the error lines of a log | `grep -i error log.txt` |
+| Count the Python files in a project | `find . -name "*.py" \| wc -l` |
+| See what takes up space here, largest last | `du -sh * \| sort -h` |
+| Check free disk space | `df -h` |
+| Create a workspace and move into it | `mkdir -p ros2_ws/src && cd ros2_ws` |
+| Update the system in one line | `sudo apt update && sudo apt upgrade` |
+| Add an alias permanently | `echo "alias ll='ls -alF'" >> ~/.bashrc` |
+
 ## 1. What Is the Terminal?
 
 When you type a command, it passes through a few layers:
@@ -330,6 +371,8 @@ history | grep apt           # which apt commands did I run before?
 ros2 topic list | grep scan  # find the LiDAR topic
 ```
 
+To run commands one after another, join them with `&&`: the second command runs only if the first one succeeded, as in `sudo apt update && sudo apt upgrade`.
+
 `grep` keeps only the lines that contain a word. You can also search inside files with it: `grep -r "TODO" .` finds every `TODO` in the current directory.
 
 ## 9. Running and Stopping Programs
@@ -448,26 +491,6 @@ readelf -a /usr/lib/x86_64-linux-gnu/libjpeg.so.8.2.2 | grep SONAME
 ```
 
 `$(...)` runs the command inside first and pastes its output in place.
-
-## Quick Reference
-
-| Task | Command |
-| --- | --- |
-| Where am I? / What's here? | `pwd` / `ls -la` |
-| Go somewhere / go home / go back | `cd <dir>` / `cd ~` / `cd -` |
-| Create a directory / file | `mkdir -p <dir>` / `touch <file>` |
-| Read a file | `cat`, `less`, `head`, `tail -f` |
-| Copy / move or rename / delete | `cp -r` / `mv` / `rm -r` |
-| Find files | `find . -name "<pattern>"` |
-| Search inside files | `grep -r "<text>" .` |
-| Edit a file | `nano <file>` or `vim <file>` |
-| Make a script executable | `chmod +x <file>` |
-| Run as administrator | `sudo <command>` |
-| Save output to a file | `cmd > file` / `cmd >> file` |
-| Chain commands | `cmd1 \| cmd2` |
-| Stop / find / kill a program | `Ctrl + C` / `ps aux \| grep <name>` / `kill <PID>` |
-| Install software | `sudo apt update && sudo apt install <package>` |
-| Get help | `<command> --help` / `man <command>` |
 
 ## See also
 - [[Terminal Setup Basics|Terminal Setup: Basics]] — Terminator, Tab completion, and fzf
