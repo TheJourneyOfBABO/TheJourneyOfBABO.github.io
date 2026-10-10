@@ -5,10 +5,12 @@ tags:
   - project/miru
 date: 2023-12-30
 ---
+
 > **Since 09.2023 · [GitHub](https://github.com/miru-cargo) · [LinkedIn](https://www.linkedin.com/company/miru-cargo)**
 > **Associate club of the College of Engineering, Hanyang University (since Mar 2026) · 90+ members. Founded by me (Jisang Yun) as MiRu.**
 
 ## Where we started from?
+
 **"What do I like to do?"**
 That was the most critical question. During the year and a half of army duty, it was definitely a different lifestyle from student life. Ironically, I would say that separation from the outside world brought me freedom of thinking. I asked, "What do I really like to do?" The answer was in the question. Long story short, I decided to travel around the world. After a year of traveling, especially during the 3-month road trip around Australia with three other random friends, I felt more connected to automotive. Yeah, automotive engineering.
 
@@ -19,7 +21,9 @@ Just before the fall semester began, I founded MiRu, which is the "Automotive So
 **We, MiRu. Dream Big.**
 
 ## MiRu → MIRU
+
 MiRu started as an automotive software study group in the Department of Automotive Engineering. It was later rebranded as **MIRU (Mobile Intelligent Robotics Union)** and expanded beyond the department. In March 2026, MIRU was promoted to an official associate club (준동아리) of the College of Engineering. I have passed leadership to the next generation and now serve as the club advisor.
 
 ## Current Project
+
 - [[projects/f1tenth/index|F1Tenth]]: Dec, 2024 ~
