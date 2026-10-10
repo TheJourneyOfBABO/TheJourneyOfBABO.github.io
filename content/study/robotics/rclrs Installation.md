@@ -1,5 +1,5 @@
 ---
-title: ROS2 for Rust (rclrs) - System-wide Installation
+title: "ROS2 for Rust (rclrs): System-wide Installation"
 draft: false
 tags:
   - "#ros2"

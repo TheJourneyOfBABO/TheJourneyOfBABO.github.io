@@ -1,12 +1,12 @@
 ---
-title: About Me_ Jisang Yun
+title: "About Me"
 draft: false
 tags: 
 aliases:
   - Resume
 date: 2026-02-03
 ---
-# Jisang Yun
+## Jisang Yun
 
 **Integrated MS/PhD Student in Automotive Engineering**
 
@@ -18,15 +18,15 @@ date: 2026-02-03
 
 ---
 
-## About Me
+### About Me
 
 Automotive engineering graduate (Hanyang University, Feb. 2026) now pursuing an integrated MS/PhD program at AILAB (Automotive Intelligence Laboratory), focusing on motion planning and end-to-end autonomous driving. Experienced in ROS2, C++, and Rust for building robust vehicle systems. Passionate about advancing mobility through AI-driven solutions and cutting-edge automotive technologies.
 
 ---
 
-## Professional Experience
+### Professional Experience
 
-### Integrated MS/PhD Student | AILAB (Automotive Intelligence Laboratory, Hanyang University)
+#### Integrated MS/PhD Student | AILAB (Automotive Intelligence Laboratory, Hanyang University)
 
 **Mar 2026 – Present** | Planning Team
 
@@ -34,7 +34,7 @@ Automotive engineering graduate (Hanyang University, Feb. 2026) now pursuing an 
 - Working on A1 Challenge 2026: end-to-end autonomous racing on F1-scale vehicles
 - Developing DDS (Data Distribution Service) based vehicle interface standardization framework integrated with CARLA simulator (early stage)
 
-### Research Intern | AILAB (Automotive Intelligence Laboratory, Hanyang University)
+#### Research Intern | AILAB (Automotive Intelligence Laboratory, Hanyang University)
 
 **Dec 2024 – Feb 2026**
 
@@ -42,7 +42,7 @@ Automotive engineering graduate (Hanyang University, Feb. 2026) now pursuing an 
 - Led localization for F1Tenth autonomous racing platform as team leader; migrated Particle Filter implementation from Python to C++, incorporating asynchronous processing and motion model for robust state estimation
 - Collaborated on real-time object detection and tracking algorithms for dynamic environments
 
-### Founder & Advisor | [[MIRU]] (Mobile Intelligent Robotics Union)
+#### Founder & Advisor | [[MIRU]] (Mobile Intelligent Robotics Union)
 
 **Sep 2023 – Present**
 
@@ -51,7 +51,7 @@ Automotive engineering graduate (Hanyang University, Feb. 2026) now pursuing an 
 - Recruited and mentored 40+ students; organized workshops on automotive software architectures, embedded systems, and communication protocols
 - Passed leadership to the next generation; currently serving as club advisor
 
-### Working Holiday | Australia
+#### Working Holiday | Australia
 
 **2022 – 2023**
 
@@ -59,7 +59,7 @@ Automotive engineering graduate (Hanyang University, Feb. 2026) now pursuing an 
 - Completed 3-month road trip through Outback desert, demonstrating resilience and adaptability in challenging environments
 - Developed cultural adaptability and problem-solving skills through independent travel and work across multiple Australian cities
 
-### Operations Situation Specialist | Republic of Korea Army
+#### Operations Situation Specialist | Republic of Korea Army
 
 **2020 – 2021**
 
@@ -68,16 +68,16 @@ Automotive engineering graduate (Hanyang University, Feb. 2026) now pursuing an 
 
 ---
 
-## Education
+### Education
 
-### Integrated MS/PhD in Automotive Engineering | Hanyang University
+#### Integrated MS/PhD in Automotive Engineering | Hanyang University
 
 **Mar 2026 – Present** | Seoul, South Korea
 
 - Planning team at AILAB (Automotive Intelligence Laboratory)
 - Research focus: motion planning, end-to-end autonomous driving
 
-### B.S. in Automotive Engineering | Hanyang University
+#### B.S. in Automotive Engineering | Hanyang University
 
 **2019 – 2026** | Seoul, South Korea
 
@@ -85,27 +85,27 @@ Automotive engineering graduate (Hanyang University, Feb. 2026) now pursuing an 
 - Relevant coursework: Vehicle Dynamics, Embedded Systems, Control Theory, Machine Learning for Autonomous Vehicles, Sensor Fusion
 - Active participation in autonomous vehicle competitions and automotive software development projects
 
-### Embedded Systems & Artificial Intelligence | MCI The Entrepreneurial School
+#### Embedded Systems & Artificial Intelligence | MCI The Entrepreneurial School
 
 **February 2024** | Innsbruck, Austria
 
 - Intensive program covering ATmega328p microcontroller programming and AI applications in embedded systems
 - Hands-on experience with sensor integration and real-time processing systems
 
-### International Business Development | EM Normandie Business School
+#### International Business Development | EM Normandie Business School
 
 **Jun – Aug 2023** | Le Havre & Paris, France
 
 - Business simulation program focusing on strategic management and international operations
 - Enhanced project management and entrepreneurial thinking capabilities
 
-### Spanish Language & Mexican Culture | Tecnológico de Monterrey
+#### Spanish Language & Mexican Culture | Tecnológico de Monterrey
 
 **January 2020** | Various Cities, Mexico
 
 Cultural immersion program with Spanish language training
 
-### Gwangju Science Academy For The Gifted
+#### Gwangju Science Academy For The Gifted
 
 **2016 – 2019** | Gwangju, South Korea
 
@@ -114,25 +114,25 @@ Cultural immersion program with Spanish language training
 
 ---
 
-## Awards and Honors
+### Awards and Honors
 
-### 1st Place (Overall) | Global Innovation Festa — F1Tenth Autonomous Racing
+#### 1st Place (Overall) | Global Innovation Festa — F1Tenth Autonomous Racing
 
 **2025** | National Competition
 
 - Achieved 1st place overall in the F1Tenth autonomous racing category
 
-### 2nd Place (Qualifying) | ICCAS 2025 — F1Tenth Autonomous Racing
+#### 2nd Place (Qualifying) | ICCAS 2025 — F1Tenth Autonomous Racing
 
 **2025** | ICCAS (International Conference on Control, Automation and Systems)
 
 - Qualified in 2nd place in the F1Tenth racing competition held at ICCAS 2025
 
-### Grand Prize | International University EV Autonomous Driving Competition
+#### Grand Prize | International University EV Autonomous Driving Competition
 
 **2025** | International Competition
 
-### Excellence Award | 2024 University Joint Autonomous Driving Competition
+#### Excellence Award | 2024 University Joint Autonomous Driving Competition
 
 **July 2024** | National Competition
 
@@ -141,9 +141,9 @@ Cultural immersion program with Spanish language training
 
 ---
 
-## Research & Publications
+### Research & Publications
 
-### Autonomous Driving Architecture Using SLAM and Machine Learning with LiDAR
+#### Autonomous Driving Architecture Using SLAM and Machine Learning with LiDAR
 
 **Mar 2025 – Dec 2025** | Hanyang University Capstone Design
 
@@ -163,9 +163,9 @@ _Supervised by Prof. Gichun Cho, Research collaboration with Mingi Ju_
 
 ---
 
-## Projects
+### Projects
 
-### Face Matching Service (Under eyes)
+#### Face Matching Service (Under eyes)
 
 **Sep 2025** | Side Project (2-person team)
 
@@ -175,7 +175,7 @@ _Supervised by Prof. Gichun Cho, Research collaboration with Mingi Ju_
 
 **Tech Stack:** Python, OpenCV, face_recognition, facial landmark detection, cosine similarity
 
-### Embedded Rover | TARS
+#### Embedded Rover | TARS
 
 **Mar 2025 – Aug 2025** | Academic Project (Team Leader)
 
@@ -189,7 +189,7 @@ _Supervised by Prof. Gichun Cho, Research collaboration with Mingi Ju_
 
 **Problem Solving:** Overcame critical hardware failures (motor/camera malfunctions) through systematic debugging and component replacement
 
-### F1Tenth Autonomous Racing Platform | MIRU Project
+#### F1Tenth Autonomous Racing Platform | MIRU Project
 
 **Dec 2024 – Nov 2025** | Competition & Organization Project (Team Leader)
 
@@ -203,7 +203,7 @@ _Supervised by Prof. Gichun Cho, Research collaboration with Mingi Ju_
 
 **Fleet Management:** Successfully deployed 3-vehicle fleet (2 with 2D LiDAR, 1 with 3D LiDAR) enabling large-scale autonomous racing research
 
-### Autonomous Personal Training Robot System
+#### Autonomous Personal Training Robot System
 **Oct 2024 – Sep 2025** | Industry Collaboration with SOSLAB
 
 **Goal:** Mobile robot with 3D LiDAR for intelligent fitness coaching and adaptive running pace guidance
@@ -212,7 +212,7 @@ _Supervised by Prof. Gichun Cho, Research collaboration with Mingi Ju_
 
 **Focus:** Sensor fusion for simultaneous user tracking, autonomous following, and personalised exercise feedback
 
-### Autonomous Vehicle Software | Team 5
+#### Autonomous Vehicle Software | Team 5
 
 **Sep – Dec 2024** | Academic Project (Team Leader)
 
@@ -226,7 +226,7 @@ _Supervised by Prof. Gichun Cho, Research collaboration with Mingi Ju_
 
 **Innovation:** Developed physics-based optimal speed calculation considering vehicle dynamics and environmental factors
 
-### Project Monguard | Interactive Robot
+#### Project Monguard | Interactive Robot
 
 **Mar – Jun 2024** | Academic Project
 
@@ -236,14 +236,14 @@ _Supervised by Prof. Gichun Cho, Research collaboration with Mingi Ju_
 
 **Features:** Real-time emotion visualization, custom Bluetooth controller
 
-### Automata WaveMaker
+#### Automata WaveMaker
 
 **Sep – Dec 2023** | 3D Design & Manufacturing Project
 
 - Designed complex mechanical system using CATIA with precision kinematics for wave-generating motion
 - Applied engineering optimization principles for structural efficiency and motion accuracy
 
-### Hangul Clock
+#### Hangul Clock
 
 **Sep – Dec 2019** | Digital Logic Design Project
 
@@ -252,7 +252,7 @@ _Supervised by Prof. Gichun Cho, Research collaboration with Mingi Ju_
 
 ---
 
-## Technical Skills
+### Technical Skills
 
 - **Programming:** C/C++, Rust, Python, MATLAB
 - **Robotics & AI:** ROS2, SLAM, Machine Learning, Computer Vision, Sensor Fusion
@@ -262,7 +262,7 @@ _Supervised by Prof. Gichun Cho, Research collaboration with Mingi Ju_
 
 ---
 
-## Languages
+### Languages
 
 - **Korean:** Native
 - **English:** Fluent (Professional working proficiency)
@@ -271,7 +271,7 @@ _Supervised by Prof. Gichun Cho, Research collaboration with Mingi Ju_
 
 ---
 
-## Interests
+### Interests
 
 - **🔧 Rust Programming** — Exploring memory-safe systems programming for automotive applications
 - **✈️ International Travel** — Cultural exploration across multiple continents (Australia, Europe, Asia, North America)

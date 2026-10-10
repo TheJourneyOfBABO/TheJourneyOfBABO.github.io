@@ -1,5 +1,5 @@
 ---
-title: Course 1_ Neural Networks and Deep Learning
+title: "Deep Learning Specialization 1: Neural Networks and Deep Learning"
 draft: false
 tags:
   - "#deep_learning"

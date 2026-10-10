@@ -10,9 +10,9 @@ date: 2025-11-30
 > Learning the Basic concepts of the Autonomous Driving 
 > [F1Tenth Syllabus](https://docs.google.com/spreadsheets/d/1PaFYG7XC_XQ3ExdQGb-S8oJzzixoMOVjh4L1RjW0gT0/edit?gid=0#gid=0)
 - [[F1Tenth Simulator]]: Lightweight 2D simulator built with ROS
-- [[Lab2_Automatic_Emergency_Braking]]: AEB for safety
-- [[Lab3_Wall_Following]]
-- [[Lab4_Follow_the_Gap]]
+- [[Lab2 Automatic Emergency Braking]]: AEB for safety
+- [[Lab3 Wall Following]]
+- [[Lab4 Follow the Gap]]
 
 
 

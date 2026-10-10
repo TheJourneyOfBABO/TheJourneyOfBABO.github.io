@@ -1,5 +1,5 @@
 ---
-title: F1Tenth Build
+title: "F1Tenth Build 1: Base Platform"
 draft: false
 tags:
   - F1Tenth

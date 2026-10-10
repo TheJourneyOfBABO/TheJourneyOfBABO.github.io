@@ -45,4 +45,3 @@ delete[] arr;              // 배열 메모리 해제 ([]에 주의!)
 ## Reference
 [모두의 코드. ch3. C++의 세계로 오신 것을 환영합니다. (new, delete)](https://modoocode.com/169)
 
-## Next

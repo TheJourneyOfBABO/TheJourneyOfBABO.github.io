@@ -11,7 +11,7 @@ aliases:
 
 ## Hi, I'm Jisang
 
-Integrated MS/PhD student at **AILAB**, Hanyang University (Planning team), working on **Motion Planning** and **End-to-End Driving**. → [[About Me_ Jisang Yun|About Me]]
+Integrated MS/PhD student at **AILAB**, Hanyang University (Planning team), working on **Motion Planning** and **End-to-End Driving**. → [[About Me|About Me]]
 
 ## Now
 

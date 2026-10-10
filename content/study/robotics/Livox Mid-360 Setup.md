@@ -1,5 +1,5 @@
 ---
-title: 3DLiDAR - Livox Mid-360 setup
+title: "Livox Mid-360 3D LiDAR Setup"
 draft: false
 tags:
   - LiDAR

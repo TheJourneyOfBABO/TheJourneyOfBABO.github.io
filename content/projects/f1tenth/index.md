@@ -17,7 +17,7 @@ date: 2025-11-30
 > [Building Car](https://roboracer.ai/build.html)
 > [Basic Learning](https://roboracer.ai/learn.html#)
 ## Building the Hardware
-[[F1Tenth Build]]
+[[F1Tenth Build 1]]
 
 
 ## Software Stack

@@ -1,5 +1,5 @@
 ---
-title: Lab4_Follow_the_Gap
+title: "Lab 4: Follow the Gap"
 draft: false
 tags:
   - F1Tenth

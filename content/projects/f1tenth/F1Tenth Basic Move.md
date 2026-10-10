@@ -1,5 +1,5 @@
 ---
-title: F1Tenth Basic Move(Auto0)
+title: "F1Tenth Basic Move (Auto0)"
 draft: true
 tags:
   - F1Tenth

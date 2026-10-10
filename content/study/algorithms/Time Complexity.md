@@ -1,5 +1,5 @@
 ---
-title: Algorithm Basics
+title: "Time Complexity"
 draft: false
 tags: 
 aliases:

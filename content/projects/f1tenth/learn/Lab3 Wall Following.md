@@ -1,5 +1,5 @@
 ---
-title: Lab3_Wall_Following
+title: "Lab 3: Wall Following"
 draft: false
 tags:
   - F1Tenth
@@ -14,7 +14,7 @@ date: 2025-02-25
 ![[wall_follow _1.mp4]]
 
 **- Next -**
-[[Lab4_Follow_the_Gap]]
+[[Lab4 Follow the Gap]]
 
 ---
 ### Reference

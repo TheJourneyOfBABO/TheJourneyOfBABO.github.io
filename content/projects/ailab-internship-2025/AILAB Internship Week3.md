@@ -1,5 +1,5 @@
 ---
-title: AILAB Internship Week3
+title: "AILAB Internship — Week 3"
 draft: false
 tags: 
 aliases:

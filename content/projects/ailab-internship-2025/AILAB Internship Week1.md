@@ -1,5 +1,5 @@
 ---
-title: AILAB Internship Week1
+title: "AILAB Internship — Week 1"
 draft: false
 tags:
   - "#internship"
@@ -10,7 +10,7 @@ date: 2025-08-30
 ## Week 1 (June 30 - July 4)
 ### C++ Study & Algorithm Study
 **Algorithm Topics:**
-- [[Algorithm Basics - Time Complexity]]
+- [[Time Complexity]]
 - [[Debug (C++)]]
 - [[Arrays, List and Vectors]]
 - [[Range Sum (or Prefix Sum)]]
@@ -25,7 +25,7 @@ date: 2025-08-30
 
 ### ML & Python Study
 **Deep Learning:**
-- [[Course 1_ Neural Networks and Deep Learning|Course 1: Neural Networks and Deep Learning]]
+- [[Neural Networks and Deep Learning|Course 1: Neural Networks and Deep Learning]]
 - Course 2: Improving Deep Neural Networks - Gradient Descent with Momentum
 
 **PyTorch:**
