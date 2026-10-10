@@ -42,7 +42,7 @@ Automotive engineering graduate (Hanyang University, Feb. 2026) now pursuing an 
 - Led localization for F1Tenth autonomous racing platform as team leader; migrated Particle Filter implementation from Python to C++, incorporating asynchronous processing and motion model for robust state estimation
 - Collaborated on real-time object detection and tracking algorithms for dynamic environments
 
-### Founder & Advisor | MIRU (Mobile Intelligent Robotics Union)
+### Founder & Advisor | [[MIRU]] (Mobile Intelligent Robotics Union)
 
 **Sep 2023 – Present**
 

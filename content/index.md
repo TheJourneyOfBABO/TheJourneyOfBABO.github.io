@@ -12,7 +12,7 @@ I'm an **Automotive Software Engineering** graduate from **Hanyang University** 
 - Integrated MS/PhD student at **AILAB**, Hanyang University — Planning team (Mar. 2026~)
 - **A1 Challenge 2026** — End-to-end autonomous racing (F1Tenth scale)
 - **DDS (Data Distribution Service)** project — vehicle interface standardization with CARLA simulator integration
-- Advisor of **[[MiRu-"Automotive Software Group"|MIRU]]** — founded the club in Sep. 2023, now mentoring the next generation
+- Advisor of **[[MIRU]]** — founded the club in Sep. 2023, now mentoring the next generation
 
 ## Interests
 
@@ -37,7 +37,7 @@ Being a _babo_ means staying curious, embracing new ideas, and never stopping le
 
 # Projects
 
-## [[MiRu-"Automotive Software Group"|MIRU]] — Mobile Intelligent Robotics Union
+## [[MIRU]] — Mobile Intelligent Robotics Union
 > Founded Sep. 2023 · Rebranded as a college-wide engineering club · Now serving as advisor
 
 ## A1 Challenge 2026

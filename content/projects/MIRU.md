@@ -1,15 +1,13 @@
 ---
-title: MiRu-"Autonomous Software Group"
+title: MIRU (Mobile Intelligent Robotics Union)
 draft: false
 tags: 
 aliases:
-  - MiRu
 date: 2023-12-30
 ---
-## MiRu
-> **Since 09.2023 / [Github Page](https://github.com/miru-ae)**
-> **Department of Automotive Engineering, Hanyang University.**
-> **Automotive Software Study Group. Founded by me(Jisang Yun).**
+## MIRU — Mobile Intelligent Robotics Union
+> **Since 09.2023 · [GitHub](https://github.com/miru-ae) · [LinkedIn](https://www.linkedin.com/company/miru-cargo)**
+> **College-wide engineering club, Hanyang University. Founded by me (Jisang Yun) as MiRu.**
 
 ## Where we started from?
 **"What do I like to do?"**
@@ -20,6 +18,9 @@ After coming back to university in 2023, I was lucky to meet new colleagues who 
 Just before the fall semester began, I founded MiRu, which is the "Automotive Software study and project group." More than 20 people joined in the first club recruitment, and now about 50 of us are in the group. Since that time, 09.2023, everything has changed.
 
 **We, MiRu. Dream Big.**
+
+## MiRu → MIRU
+MiRu started as an automotive software study group in the Department of Automotive Engineering. It was later rebranded as **MIRU (Mobile Intelligent Robotics Union)** and expanded into a college-wide engineering club. I have passed leadership to the next generation and now serve as the club advisor.
 
 
 ## Current Project
