@@ -29,7 +29,7 @@ Motion Planning · End-to-End Driving · Rust
 
 # Welcome to The Journey of BABO
 
-> Building my second brain with [[Quartz-Blog]] — [[BaBrain]]
+> Building my second brain with [[Quartz-Blog]]
 
 **BABO** stands for **"Boundless Adventure in Bridging Opportunities."**
 In Korean, _babo (바보)_ means **"dummy"** — and I wear that proudly.
