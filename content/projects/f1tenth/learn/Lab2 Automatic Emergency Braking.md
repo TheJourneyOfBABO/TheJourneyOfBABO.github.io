@@ -7,12 +7,15 @@ aliases:
   - AEB
 date: 2025-02-10
 ---
+
 > [Lecture Note](https://docs.google.com/presentation/d/1HQSLPLE-fZ3EN-9PyqMd7-ti7JSLKL7qlrouGFEprU0/edit#slide=id.g10a2bc3b756_0_295) / [Our Code](https://github.com/JisangYun00/f1sim_ws/tree/master/src/lecture_ws/f1tenth_lab2_aeb)
 
 Emergency braking based on the parameter 'Time to collision'
+
 $$
 TTC_i(t) = \frac{r_i(t)}{[-\dot{r}_i(t)]_+}
 $$
+
 TTC is defined as the time it would take for the ego-vehicle and an object to intercept one another given that they each maintain their current heading and velocity.
 
 $$
@@ -21,10 +24,13 @@ r_i(t) &: \text{Range between vehicle and object} \\
 \dot{r}_i &= -v_x \cos(\theta_i) \quad \text{(range rate, negative when approaching)}
 \end{aligned}
 $$
+
 ![[AEB_terminal.png]]
 
 ## See also
+
 - [[Lab3 Wall Following|Lab 3: Wall Following]]
 
 ## References
+
 - [F1Tenth_Lab2_Template](https://github.com/f1tenth/f1tenth_lab2_template)
