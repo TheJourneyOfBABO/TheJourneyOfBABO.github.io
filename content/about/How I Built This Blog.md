@@ -8,7 +8,7 @@ date: 2025-03-30
 
 
 > To build My new Blog, I used [Quartz](https://quartz.jzhao.xyz/)
-> [Obsidan](https://obsidian.md/) - Second Brain
+> [Obsidian](https://obsidian.md/) - Second Brain
 
 ![[My Quartz Blog screenshot_V0.png]]
 

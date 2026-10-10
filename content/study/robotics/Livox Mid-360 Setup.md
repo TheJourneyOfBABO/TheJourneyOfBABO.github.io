@@ -24,7 +24,7 @@ date: 2025-09-20
   For example `192.168.1.1xx -> 192.168.1.158`
 
 	![[livox-mid360-code.jpg|300]]
-- Update IP address inside the config file(MID360_config.json)
+- Update IP address inside the config file(MID360_config.json): set the four `host_net_info` IPs to the computer IP (`192.168.1.50`) and `lidar_configs[0].ip` to the LiDAR IP (`192.168.1.158`)
 	```
 	~/ws_livox/src/livox_ros_driver2/config (master*) » vim MID360_config.json
 	```
@@ -42,14 +42,14 @@ date: 2025-09-20
 	      "imu_data_port": 56400,
 	      "log_data_port": 56500
 	    },
-	    "host_net_info" : { ## update here
-	      "cmd_data_ip" : "192.168.1.50", #
+	    "host_net_info" : {
+	      "cmd_data_ip" : "192.168.1.50",
 	      "cmd_data_port": 56101,
-	      "push_msg_ip": "192.168.1.50", #
+	      "push_msg_ip": "192.168.1.50",
 	      "push_msg_port": 56201,
-	      "point_data_ip": "192.168.1.50", #
+	      "point_data_ip": "192.168.1.50",
 	      "point_data_port": 56301,
-	      "imu_data_ip" : "192.168.1.50", #
+	      "imu_data_ip" : "192.168.1.50",
 	      "imu_data_port": 56401,
 	      "log_data_ip" : "",
 	      "log_data_port": 56501
@@ -57,7 +57,7 @@ date: 2025-09-20
 	  },
 	  "lidar_configs" : [
 	    {
-	      "ip" : "192.168.1.158", # also update here
+	      "ip" : "192.168.1.158",
 	      "pcl_data_type" : 1,
 	      "pattern_mode" : 0,
 	      "extrinsic_parameter" : {

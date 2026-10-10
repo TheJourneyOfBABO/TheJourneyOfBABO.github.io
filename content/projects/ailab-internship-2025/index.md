@@ -6,7 +6,7 @@ aliases:
 date: 2025-08-30
 ---
 ## The summer internship program before Master Enrolment
-AILAB(Automotive Intelligence Lab) in my university(University of Hanyang, Seoul), begin internship program during summer 2025. From 30.06(Mon) - 22.08(Fri), scheduled total 8weeks. For the first 3 weeks of study and then project with [[projects/f1tenth/index|F1Tenth]] platform.
+AILAB (Automotive Intelligence Lab) at Hanyang University, Seoul, ran an internship program in summer 2025: 8 weeks from 30.06 (Mon) to 22.08 (Fri). The first 3 weeks were for study, followed by a project on the [[projects/f1tenth/index|F1Tenth]] platform.
 
 ## Study materials
 - C++ 
@@ -32,4 +32,3 @@ C++ concurrency (threads/mutex) and smart pointers with tree algorithms, plus de
 ### Deep learning
 - [Lecture Summary Note](https://github.com/mbadry1/DeepLearning.ai-Summary/tree/master/2-%20Improving%20Deep%20Neural%20Networks)
 - [Coursera Deep Learning Specialization Notes](https://iamirmasoud.com/2023/03/26/coursera-deep-learning-specialization-notes/)
-- 

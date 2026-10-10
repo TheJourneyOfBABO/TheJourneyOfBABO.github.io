@@ -66,7 +66,7 @@ S[4] = 24 + 4 = 28
 - **업데이트:** O(log N)
 - **구간 합 쿼리:** O(log N)
 - **특징:** 구간 합뿐만 아니라 최솟값, 최댓값 등 다양한 연산 지원
-#### 2. Index Tree (인덱스 트리) = Fenwick Tree
+#### 2. Fenwick Tree (펜윅 트리, Binary Indexed Tree)
 - **구조:** 배열 기반의 트리 구조
 - **업데이트:** O(log N)
 - **구간 합 쿼리:** O(log N)

@@ -203,7 +203,8 @@ date: 2025-06-10
 - Remove package: `sudo apt remove [package]`
 - Search for package: `apt search [keyword]`
 - List installed packages: `dpkg -l`
-- Show package info: `dpkg -L [package]`
+- Show package info: `apt show [package]`
+- List files installed by a package: `dpkg -L [package]`
 
 ## Development Tools
 

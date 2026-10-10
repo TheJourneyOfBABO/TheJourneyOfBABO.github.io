@@ -9,14 +9,14 @@ date: 2025-11-30
 ---
 ## [F1Tenth Build Page](https://roboracer.ai/build.html)
 ![[mirucar.jpg]]
-> **Little different compare to F1Tenth Build methods. Clear line organization**
+> **A little different from the official F1Tenth build, with cleaner cable management**
 
 ## Platform Board & 3D Model design with Onshape
-"Platfrom vesrsion 1"
+**"Platform version 1"**
 
 
 ![[F1Tenth Platform Board_V3.png]]
-**"Platform version 2"**_ made it concise and lower the board closer to the frame
+**"Platform version 2"**: made it more compact and lowered the board closer to the frame
 ![[mirucar2_platform_design.png]]
 **Platform Board Design**
 ![[Hokuyo LiDAR + Camera Connector.png]]
@@ -28,5 +28,5 @@ date: 2025-11-30
 
 ### To-Do
 - [x] Hardware Build(Assemble)
-- [ ] [[Calibrating the Odometry]]
+- [x] [[Calibrating the Odometry]]
 

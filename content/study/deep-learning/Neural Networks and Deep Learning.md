@@ -7,10 +7,10 @@ aliases:
   - "Course 1: Neural Networks and Deep Learning"
 date: 2025-04-02
 ---
-## What is a Neural Network?
+### What is a Neural Network?
 A neural network is a computational model inspired by how biological neurons work in the brain. At its core, it's a system that learns to map inputs to outputs by finding patterns in data.
 
-## Simple Neural Network - Housing Price Prediction
+### Simple Neural Network - Housing Price Prediction
 The most basic neural network has this structure:
 
 **Input → Neuron → Output**
@@ -20,16 +20,16 @@ For housing price prediction:
 House Size (sq ft) → [Neuron] → Predicted Price ($)
 ```
 
-### How It Works
+#### How It Works
 1. **Input**: Feed the house size into the neuron
 2. **Processing**: The neuron applies a mathematical function
 3. **Output**: Produces a predicted price
 
 This is essentially a sophisticated version of finding the "best fit line" through your data points (like least squares regression).
 
-## ReLU Function - The Popular Choice
+### ReLU Function - The Popular Choice
 **ReLU = "Rectified Linear Unit"**
-### What ReLU Looks Like:
+#### What ReLU Looks Like:
 ```
 Price |
       |         /
@@ -41,14 +41,14 @@ Price |
 ------+---/---------> Size
       |
 ```
-### The Math Behind ReLU:
+#### The Math Behind ReLU:
 - **ReLU(x) = max(0, x)**
 - If input is negative → output is 0
 - If input is positive → output equals the input
-### Why "Rectified"?
+#### Why "Rectified"?
 "Rectify" means "to make right" or "correct." In this context, it means we're "correcting" negative values by setting them to zero. This makes sense for housing prices - you can't have a negative price!
 
-## Building Bigger Networks
+### Building Bigger Networks
 To create more powerful neural networks, you stack these basic "neurons" together like building blocks:
 ```
 Size → [Neuron] → [Neuron] → [Neuron] → Price
@@ -57,7 +57,7 @@ Size → [Neuron] → [Neuron] → [Neuron] → Price
 
 Each layer can have multiple neurons, and each neuron typically uses an activation function like ReLU to introduce non-linearity, allowing the network to learn complex patterns.
 
-### Multiple Input Example - More Realistic
+#### Multiple Input Example - More Realistic
 ```
 Size           ────┐
 # Bedrooms     ────┼──→ [Hidden Layer] ──→ [Output] ──→ Price
@@ -67,7 +67,7 @@ Wealth         ────┘
      x (inputs)
 ```
 
-## Key Insight
+### Key Insight
 - **Simple networks**: Learn basic relationships (like a straight line)
 - **Complex networks**: Can learn intricate patterns but risk overfitting
 - **Sweet spot**: Finding the right complexity for your specific problem and data size
@@ -76,13 +76,13 @@ Wealth         ────┘
 Imagine you have 4 friends (the inputs) talking to 3 other friends (the hidden neurons).
 In a neural network, **every input friend talks to every hidden friend.**
 
-## How Supervised Learning Works:
+### How Supervised Learning Works:
 You give the AI:
 1. **Input (x)**: The data you feed in
 2. **Output (y)**: The correct answer you want
 3. The AI learns the pattern and can predict outputs for new inputs
 
-## The Examples Explained:
+### The Examples Explained:
 **🏠 Real Estate (Standard NN)**
 - Input: House features (size, bedrooms, location)
 - Output: Price
@@ -113,12 +113,12 @@ You give the AI:
 - Output: Where other cars are positioned
 - AI learns: "From sensor data, other vehicles are located here"
 
-## Key Point:
+### Key Point:
 Each application uses different types of neural networks (NN, CNN, RNN) because different problems need different approaches!
 
-# Types of Neural Networks Explained
+## Types of Neural Networks Explained
 
-## 1. Standard NN (Fully Connected Neural Network)
+### 1. Standard NN (Fully Connected Neural Network)
 **What it is:** The basic neural network where every neuron connects to every neuron in the next layer.
 
 **Structure:**
@@ -137,7 +137,7 @@ Every hidden neuron connects to every output
 **Why it works:** Good at finding relationships between different features, but treats all inputs equally.
 
 ---
-## 2. CNN (Convolutional Neural Network)
+### 2. CNN (Convolutional Neural Network)
 **What it is:** Specialized for **images and spatial data**. Uses "filters" that slide across the image to detect patterns.
 
 **How it works:**
@@ -159,7 +159,7 @@ Image → [Detect edges] → [Detect shapes] → [Detect objects] → Classifica
 **Why it's special:** Understands that nearby pixels are related (spatial relationships).
 
 ---
-## 3. RNN (Recurrent Neural Network)
+### 3. RNN (Recurrent Neural Network)
 **What it is:** Designed for **sequential data** - things that happen in order over time.
 
 **Key Feature - Memory:**
@@ -185,7 +185,7 @@ Input₃ → [Neuron + Memory] → Output₃
 **Why it's special:** Has "memory" - can remember what happened earlier in the sequence.
 
 ---
-## Quick Comparison:
+### Quick Comparison:
 
 |Type|Best for|Key Strength|
 |---|---|---|
@@ -198,11 +198,11 @@ Input₃ → [Neuron + Memory] → Output₃
 - **CNN:** Eyes that recognize what they see
 - **RNN:** A brain that remembers conversations
 
-# Structured vs Unstructured Data in Supervised Learning
+## Structured vs Unstructured Data in Supervised Learning
 
-This image shows the two main types of data used in machine learning:
+This section shows the two main types of data used in machine learning:
 
-## Structured Data
+### Structured Data
 **What it is:** Data that's organized in **rows and columns** like a spreadsheet or database table.
 
 **Examples shown:**
@@ -224,7 +224,7 @@ This image shows the two main types of data used in machine learning:
 **Best Neural Network:** Standard NN (fully connected)
 
 ---
-## Unstructured Data
+### Unstructured Data
 **What it is:** Data that **doesn't fit neatly** into rows and columns. It's "messy" or complex.
 
 **Examples shown:**
@@ -243,7 +243,7 @@ This image shows the two main types of data used in machine learning:
 - **Audio/Text:** RNN (Recurrent NN)
 
 ---
-## Key Difference:
+### Key Difference:
 
 |Structured|Unstructured|
 |---|---|
@@ -259,33 +259,33 @@ This image shows the two main types of data used in machine learning:
 The type of data determines which neural network architecture works best!
 
 ---
-# Why Small Training Sets Show Little Difference
+## Why Small Training Sets Show Little Difference
 Looking at the left side of the graph, you can see that when training sets are small, all the different approaches (traditional learning algorithms, small NN, medium NN, large NN) perform at roughly the same level.
 
-## Why This Happens:
-### 1. **Not Enough Data to Learn Complex Patterns**
+### Why This Happens:
+#### 1. **Not Enough Data to Learn Complex Patterns**
 - Small datasets don't have enough examples for neural networks to learn intricate relationships
 - It's like trying to learn a language from just 10 sentences - you can't pick up much complexity
-### 2. **Traditional Algorithms Work Fine with Small Data**
+#### 2. **Traditional Algorithms Work Fine with Small Data**
 - Traditional algorithms (like logistic regression, SVM) are designed to work well with limited data
 - They use simpler mathematical approaches that don't need massive amounts of examples
-### 3. **Neural Networks Are "Data Hungry"**
+#### 3. **Neural Networks Are "Data Hungry"**
 - Neural networks, especially large ones, need lots of data to show their true power
 - With small datasets, they can't utilize their ability to find complex patterns
 - It's like having a Ferrari but only driving in a parking lot - you can't use its full potential
-### 4. **All Methods Hit the Same "Ceiling"**
+#### 4. **All Methods Hit the Same "Ceiling"**
 - With limited data, there's only so much any algorithm can learn
 - The performance ceiling is determined by the amount of information available, not the sophistication of the method
-## The Key Insight:
+### The Key Insight:
 **"If you have a small dataset, don't bother with complex neural networks. Use simpler, traditional methods instead."**
 
 ---
-## Scale drives deep learning progress
+### Scale drives deep learning progress
 - Data (more datasets)
 - Computation(faster computational power)
 - Algorithms (algorithmic innovation)
 
-## Speed Comparison: Sigmoid vs ReLU
+### Speed Comparison: Sigmoid vs ReLU
 Algorithmic Innovation -> Help Computation
 
 |Aspect|Sigmoid|ReLU|
@@ -294,34 +294,34 @@ Algorithmic Innovation -> Help Computation
 |**Computation**|Expensive (exponential)|Cheap (max function)|
 |**Deep Learning**|Slow/stuck|Fast training|
 |**Vanishing Gradient**|❌ Big problem|✅ No problem|
-## Bottom Line:
+### Bottom Line:
 **ReLU = Faster training + Better gradients + Simpler math**
 This is why ReLU became the standard activation function and helped make deep learning practical!
 
 ---
-## Binary Classification
+### Binary Classification
 Input of image -> 1(cat) vs 0(non cat)
 RGB(64 64 64) -> 64 x 64 x 3 = 12288
 
-# Machine Learning Notation Guide
+## Machine Learning Notation Guide
 
-## Basic Notation
-### Training Data
+### Basic Notation
+#### Training Data
 - **(x, y)** = A single training example
     - **x** = Input features (e.g., house size, bedrooms)
     - **y** = Output/target (e.g., price)
-### Dataset Sizes
+#### Dataset Sizes
 - **m** = Number of training examples
 - **M = M_train** = Training set size
 - **M_test** = Number of test examples
-### Multiple Training Examples
+#### Multiple Training Examples
 **Training set:** {(x⁽¹⁾, y⁽¹⁾), (x⁽²⁾, y⁽²⁾), ..., (x⁽ᵐ⁾, y⁽ᵐ⁾)}
 Where:
 - **(x⁽¹⁾, y⁽¹⁾)** = First training example
 - **(x⁽²⁾, y⁽²⁾)** = Second training example
 - **(x⁽ᵐ⁾, y⁽ᵐ⁾)** = m-th (last) training example
-## Matrix Notation
-### Input Matrix X
+### Matrix Notation
+#### Input Matrix X
 ```
 X = [x⁽¹⁾ x⁽²⁾ ... x⁽ᵐ⁾]
 ```
@@ -329,25 +329,25 @@ X = [x⁽¹⁾ x⁽²⁾ ... x⁽ᵐ⁾]
 - **X.shape = (nₓ, m)**
     - **nₓ** = number of input features
     - **m** = number of training examples
-### Output Vector Y
+#### Output Vector Y
 ```
 Y = [y⁽¹⁾ y⁽²⁾ ... y⁽ᵐ⁾]
 ```
 - **Y ∈ ℝ¹ˣᵐ** = Y is a row vector with m examples
 - **Y.shape = (1, m)**
-## Key Concepts
-### Data Organization
+### Key Concepts
+#### Data Organization
 - **Columns** = Different training examples
 - **Rows** = Different features
 - Each **x⁽ⁱ⁾** = One column representing all features of example i
 - Each **y⁽ⁱ⁾** = Output for example i
-### Dimensions
+#### Dimensions
 - **nₓ** = Number of input features (height of X matrix)
 - **m** = Number of training examples (width of matrices)
 - **X** is nₓ × m matrix
 - **Y** is 1 × m matrix (assuming single output)
 
-## Example
+### Example
 If predicting house prices with 3 features (size, bedrooms, age) and 1000 examples:
 - **nₓ = 3** (features)
 - **m = 1000** (examples)
@@ -355,90 +355,90 @@ If predicting house prices with 3 features (size, bedrooms, age) and 1000 exampl
 - **Y.shape = (1, 1000)**
 
 ---
-# Logistic Regression
+## Logistic Regression
 
-This image shows how **Logistic Regression** works - a method for **binary classification** (predicting yes/no, 0/1 outcomes).
+This section shows how **Logistic Regression** works - a method for **binary classification** (predicting yes/no, 0/1 outcomes).
 It's a way to predict **YES or NO** questions (like "Will this email be spam?" or "Will this person buy our product?")
-## The Problem
+### The Problem
 **Given x, want ŷ = P(y=1|x)**
 - Given input features x, we want to predict the **probability** that y = 1
 - The output must be between **0 ≤ ŷ ≤ 1** (since it's a probability)
 
-## The Components
-### Parameters
+### The Components
+#### Parameters
 - **w ∈ ℝⁿˣ** = Weight vector (same dimension as input features)
 - **b ∈ ℝ** = Bias term (single number)
-### The Formula
+#### The Formula
 **ŷ = σ(wᵀx + b)**
 Where **z = wᵀx + b** (linear combination)
 
-## The Sigmoid Function σ(z)
-### Mathematical Definition:
+### The Sigmoid Function σ(z)
+#### Mathematical Definition:
 **σ(z) = 1/(1 + e⁻ᶻ)**
-### What the Sigmoid Does:
+#### What the Sigmoid Does:
 - **Takes any real number z** (-∞ to +∞)
 - **Squashes it to probability** (0 to 1)
-### Sigmoid Curve Properties:
+#### Sigmoid Curve Properties:
 - **When z = 0**: σ(0) = 0.5
 - **When z → large positive**: σ(z) → 1
 - **When z → large negative**: σ(z) → 0
 - **When z → +∞**: σ(z) ≈ 1
 - **When z → -∞**: σ(z) ≈ 0
-## How It Works
+### How It Works
 1. **Linear Combination**: z = wᵀx + b (can be any value)
 2. **Sigmoid Transformation**: σ(z) = probability between 0 and 1
 3. **Interpretation**:
     - If ŷ > 0.5 → predict class 1
     - If ŷ < 0.5 → predict class 0
-## Key Insight
+### Key Insight
 **Sigmoid converts any linear output into a valid probability!**
 This is why logistic regression works for classification - it gives you meaningful probabilities instead of just raw numbers.
 
 ---
-# Logistic Regression Cost Function Explained
+## Logistic Regression Cost Function Explained
 This shows how to measure and minimize the error in logistic regression.
-## The Setup
+### The Setup
 - **ŷ⁽ⁱ⁾ = σ(wᵀx⁽ⁱ⁾ + b)** = predicted probability for example i
 - **y⁽ⁱ⁾** = actual label (0 or 1)
 - **Goal**: Make ŷ⁽ⁱ⁾ ≈ y⁽ⁱ⁾ for all examples
 
-## Why Not Use Squared Error?
+### Why Not Use Squared Error?
 **Squared Error: L(ŷ,y) = ½(ŷ-y)²**
 
 **Problem**: This creates a **non-convex** cost function (wavy with multiple local minima) when combined with sigmoid. Hard to optimize!
 
 ---
 
-# Gradient Derivation for Logistic Regression with Squared Error
+## Gradient Derivation for Logistic Regression with Squared Error
 
-## Overview
+### Overview
 This explains why the gradient ∇_w J contains the terms (ŷ - y) and x when using **squared error loss** with **sigmoid activation**.
 
-## The Chain Rule Breakdown
+### The Chain Rule Breakdown
 For J(w) = ½(ŷ - y)² and ŷ = σ(w^T x), we use the chain rule:
 ```
 ∇_w J = ∂J/∂ŷ × ∂ŷ/∂z × ∂z/∂w
 ```
 where z = w^T x (the linear combination before sigmoid).
 
-## Three Key Components
-### 1. Error Term: ∂J/∂ŷ = (ŷ - y)
+### Three Key Components
+#### 1. Error Term: ∂J/∂ŷ = (ŷ - y)
 - **From**: Squared error loss J = ½(ŷ - y)²
 - **Meaning**: How wrong is our prediction?
 - **Example**: If ŷ = 0.9 and y = 1, error = -0.1
 
-### 2. Sigmoid Derivative: ∂ŷ/∂z = ŷ(1 - ŷ)
+#### 2. Sigmoid Derivative: ∂ŷ/∂z = ŷ(1 - ŷ)
 - **From**: Sigmoid function ŷ = σ(z) = 1/(1 + e^(-z))
 - **Meaning**: How "adjustable" is our current prediction?
 - **Key insight**:
     - Maximum when ŷ = 0.5 (most adjustable)
     - Minimum when ŷ ≈ 0 or ŷ ≈ 1 (least adjustable)
-### 3. Input Features: ∂z/∂w = x
+#### 3. Input Features: ∂z/∂w = x
 - **From**: Linear layer z = w^T x
 - **Meaning**: Which input features contributed to the error?
 - **Purpose**: Determines how much to adjust each weight
 
-## Final Gradient Formula
+### Final Gradient Formula
 ```
 ∇_w J = (ŷ - y) × ŷ(1 - ŷ) × x
          ↑        ↑         ↑
@@ -446,7 +446,7 @@ where z = w^T x (the linear combination before sigmoid).
               derivative features
 ```
 
-## Why Each Term Matters
+### Why Each Term Matters
 
 |Term|Origin|Role|
 |---|---|---|
@@ -454,12 +454,12 @@ where z = w^T x (the linear combination before sigmoid).
 |ŷ(1 - ŷ)|Sigmoid derivative|Controls update sensitivity|
 |x|Linear layer|Identifies which features to adjust|
 
-## The Problem with Sigmoid Derivative
+### The Problem with Sigmoid Derivative
 The ŷ(1 - ŷ) term creates issues:
 - **Vanishing gradients**: When ŷ ≈ 0 or ŷ ≈ 1, gradient ≈ 0
 - **Slow learning**: Updates become very small near certainty
 
-## Why Cross-Entropy is Better
+### Why Cross-Entropy is Better
 Cross-entropy loss eliminates the problematic ŷ(1 - ŷ) term, giving:
 ```
 ∇_w J = (ŷ - y) × x
@@ -470,17 +470,17 @@ This provides:
 - **Faster convergence**
 - **No vanishing gradient problem**
 
-## Key Takeaway
+### Key Takeaway
 The terms (ŷ - y) and x arise naturally from the chain rule:
 - **(ŷ - y)** comes from differentiating the loss function
 - **x** comes from the linear transformation w^T x
 - The sigmoid derivative ŷ(1 - ŷ) is the "bottleneck" that causes training difficulties
 
 ---
-## The Logistic Loss Function
+### The Logistic Loss Function
 **L(ŷ,y) = -[y log ŷ + (1-y) log(1-ŷ)]**
 
-### How This Works for Different Cases:
+#### How This Works for Different Cases:
 **Case 1: If y = 1** (actual label is 1)
 - **L(ŷ,y) = -log ŷ**
 - **Want ŷ large** (close to 1) → **want log ŷ large** → **want -log ŷ small**
@@ -493,21 +493,21 @@ The terms (ŷ - y) and x arise naturally from the chain rule:
 - When ŷ → 0: loss → 0 ✅
 - When ŷ → 1: loss → ∞ ❌ (heavily penalized)
 
-## The Complete Cost Function
+### The Complete Cost Function
 **J(w,b) = (1/m) Σᵢ₌₁ᵐ L(ŷ⁽ⁱ⁾, y⁽ⁱ⁾)**
 **J(w,b) = -(1/m) Σᵢ₌₁ᵐ [y⁽ⁱ⁾ log ŷ⁽ⁱ⁾ + (1-y⁽ⁱ⁾) log(1-ŷ⁽ⁱ⁾)]**
 
-### What This Means:
+#### What This Means:
 - **Average the loss** over all m training examples
 - **Convex function** → guaranteed to find global minimum with gradient descent
 - **Maximum likelihood estimation** → principled statistical approach
 
-## Key Insight:
+### Key Insight:
 The logistic loss function **heavily penalizes wrong confident predictions** while being **gentle on correct predictions**. This creates a smooth, convex optimization landscape that gradient descent can solve efficiently!
 
-# Loss Function vs Cost Function
+## Loss Function vs Cost Function
 
-## Loss Function
+### Loss Function
 **Definition:** Measures the **error for a SINGLE training example**
 
 **Notation:** L(ŷ, y)
@@ -521,7 +521,7 @@ The logistic loss function **heavily penalizes wrong confident predictions** whi
 **Think of it as:** "How wrong am I on this one prediction?"
 
 ---
-## Cost Function
+### Cost Function
 **Definition:** Measures the **total error across ALL training examples**
 
 **Notation:** J(w, b) or C(w, b)
@@ -533,7 +533,7 @@ The logistic loss function **heavily penalizes wrong confident predictions** whi
 **Think of it as:** "How wrong is my model overall?"
 
 ---
-## Simple Analogy
+### Simple Analogy
 **Loss Function = Grade on One Test**
 - You take a math test → get 75/100
 - That's your "loss" for that one test
@@ -544,14 +544,14 @@ The logistic loss function **heavily penalizes wrong confident predictions** whi
 
 ---
 
-## In Practice
-### For One Example:
+### In Practice
+#### For One Example:
 ```
 Actual: y = 1
 Predicted: ŷ = 0.8
 Loss: L(0.8, 1) = -log(0.8) = 0.22
 ```
-### For Entire Dataset:
+#### For Entire Dataset:
 ```
 Example 1: L(ŷ⁽¹⁾, y⁽¹⁾) = 0.22
 Example 2: L(ŷ⁽²⁾, y⁽²⁾) = 0.15
@@ -561,32 +561,32 @@ Example 3: L(ŷ⁽³⁾, y⁽³⁾) = 0.31
 Cost: J(w,b) = (0.22 + 0.15 + 0.31 + ...) / m
 ```
 
-## Key Points:
+### Key Points:
 - **Loss** = individual error
 - **Cost** = overall error (what we minimize during training)
 - **Goal**: Minimize the cost function to get the best model!
 
 ---
-# Gradient Descent for Logistic Regression
+## Gradient Descent for Logistic Regression
 
-These images show how to optimize logistic regression using gradient descent.
-### The Setup:
+This section shows how to optimize logistic regression using gradient descent.
+#### The Setup:
 - **ŷ = σ(wᵀx + b)** where **σ(z) = 1/(1+e⁻ᶻ)**
 - **Cost function:** J(w,b) = -(1/m)Σ[y⁽ⁱ⁾log ŷ⁽ⁱ⁾ + (1-y⁽ⁱ⁾)log(1-ŷ⁽ⁱ⁾)]
-### The Goal:
+#### The Goal:
 **Find w, b that minimize J(w,b)**
-### The Visualization:
+#### The Visualization:
 - **3D bowl shape:** Shows how cost J(w,b) changes with different w and b values
 - **Global optimum:** The bottom of the bowl (red dot) = best parameters
 - **Convex shape:** Guarantees we can find the global minimum
 
-### Key Insight:
+#### Key Insight:
 The right side shows the difference between:
 - **Convex function** (smooth bowl) ✅ - Easy to optimize
 - **Non-convex function** (wavy with multiple dips) ❌ - Hard to optimize
 
-## Image 2: The Algorithm
-### The Gradient Descent Steps:
+### The Algorithm
+#### The Gradient Descent Steps:
 **Repeat until convergence:**
 1. **Calculate gradients (slopes):**
     - **∂J(w,b)/∂w** = slope with respect to w
@@ -594,7 +594,7 @@ The right side shows the difference between:
 2. **Update parameters:**
     - **w := w - α(∂J(w,b)/∂w)**
     - **b := b - α(∂J(w,b)/∂b)**
-### Key Components:
+#### Key Components:
 **α (alpha)** = **Learning rate**
 - Controls how big steps we take
 - Too big → might overshoot minimum
@@ -605,24 +605,24 @@ The right side shows the difference between:
 - If positive → decrease w
 - If negative → increase w
 
-## How It Works (Simple Explanation):
-### Think of it like rolling a ball down a hill:
+### How It Works (Simple Explanation):
+#### Think of it like rolling a ball down a hill:
 1. **Look around:** Calculate which direction is steepest downhill (gradients)
 2. **Take a step:** Move in that direction by amount α
 3. **Repeat:** Keep doing this until you reach the bottom
 
-### The Process:
+#### The Process:
 ```
 Start somewhere → Calculate slope → Take step downhill → Repeat
 ```
 
-### Why It Works:
+#### Why It Works:
 - **Convex cost function** means there's only one bottom
 - **Gradients point toward the steepest descent**
 - **Learning rate α controls step size**
 - **Eventually converges to global minimum**
 
-## The Math Behind the Scenes:
+### The Math Behind the Scenes:
 The partial derivatives ∂J(w,b)/∂w and ∂J(w,b)/∂b tell us:
 - **How much the cost changes** when we change w or b slightly
 - **Which direction to move** to reduce the cost most quickly
@@ -630,24 +630,24 @@ The partial derivatives ∂J(w,b)/∂w and ∂J(w,b)/∂b tell us:
 **Bottom line:** Gradient descent automatically finds the best w and b values by following the mathematical "downhill" direction!
 
 ---
-# Complete Guide: Computation Graphs & Neural Network Learning
+## Complete Guide: Computation Graphs & Neural Network Learning
 
-## What is a Computation Graph?
+### What is a Computation Graph?
 A **computation graph** is a visual representation of mathematical operations that shows:
 - **Nodes**: Variables or operations
 - **Edges**: Flow of data
 - **Direction**: Order of computation
 
-### Think of it as:
+#### Think of it as:
 - 📝 **Recipe with steps** - Each box is an instruction
 - 🏭 **Factory assembly line** - Data flows through processing stations
 - 🧩 **Puzzle pieces** - Complex calculations broken into simple parts
 
 ---
-## Simple Example Walkthrough
-### The Function: J(a,b,c) = 3(a + bc)
+### Simple Example Walkthrough
+#### The Function: J(a,b,c) = 3(a + bc)
 **Given values:** a = 5, b = 3, c = 2
-### Visual Representation:
+#### Visual Representation:
 ```
 a = 5 ──┐
         ├──→ [v = a + u] ──→ [J = 3v] ──→ Final Result
@@ -656,23 +656,23 @@ b = 3 ──┤
 c = 2 ───────┘
 ```
 
-### Step-by-Step Calculation:
+#### Step-by-Step Calculation:
 1. **u = bc** = 3 × 2 = **6**
 2. **v = a + u** = 5 + 6 = **11**
 3. **J = 3v** = 3 × 11 = **33**
 
 ---
-## Forward Propagation
-### Definition
+### Forward Propagation
+#### Definition
 **Forward propagation** is the process of computing the output by flowing data from inputs to outputs through the graph.
 
-### Process:
+#### Process:
 1. **Start** with input values
 2. **Compute** each operation in sequence
 3. **Flow** results to the next operation
 4. **Arrive** at final output
 
-### Example Trace:
+#### Example Trace:
 ```
 Step 1: u = b × c
         u = 3 × 2 = 6
@@ -684,22 +684,22 @@ Step 3: J = 3 × v
         J = 3 × 11 = 33
 ```
 
-### Real-World Analogy: **Cooking Recipe**
+#### Real-World Analogy: **Cooking Recipe**
 1. **Prep ingredients** (inputs)
 2. **Follow steps in order** (operations)
 3. **Get final dish** (output)
 
 ---
-## Backward Propagation
-### Definition
+### Backward Propagation
+#### Definition
 **Backward propagation** computes gradients by flowing error signals backwards through the graph to determine how much each input affects the final output.
 
-### Purpose: **Learning and Optimization**
+#### Purpose: **Learning and Optimization**
 - Find out which inputs have the biggest impact
 - Adjust parameters to improve results
 - Enable machine learning
 
-### The Math: Chain Rule
+#### The Math: Chain Rule
 Starting from J = 33, work backwards:
 **∂J/∂v** = 3 (since J = 3v)
 **∂J/∂a** = ∂J/∂v × ∂v/∂a = 3 × 1 = **3**
@@ -707,7 +707,7 @@ Starting from J = 33, work backwards:
 **∂J/∂b** = ∂J/∂u × ∂u/∂b = 3 × c = 3 × 2 = **6**
 **∂J/∂c** = ∂J/∂u × ∂u/∂c = 3 × b = 3 × 3 = **9**
 
-### Understanding the Gradients:
+#### Understanding the Gradients:
 - **∂J/∂a = 3**: If I increase 'a' by 0.1, J increases by 0.3
 - **∂J/∂b = 6**: If I increase 'b' by 0.1, J increases by 0.6
 - **∂J/∂c = 9**: If I increase 'c' by 0.1, J increases by 0.9
@@ -717,23 +717,23 @@ Starting from J = 33, work backwards:
 - 'b' has medium impact (gradient = 6)
 - 'a' has smallest impact (gradient = 3)
 
-### Real-World Analogy: **Recipe Improvement**
+#### Real-World Analogy: **Recipe Improvement**
 1. **Taste the final dish** (evaluate output)
 2. **Identify what went wrong** (compute error)
 3. **Trace back to ingredients** (backward pass)
 4. **Adjust recipe for next time** (parameter updates)
 
 ---
-## The Learning Process (Parameter Updates)
-### The Update Rule:
+### The Learning Process (Parameter Updates)
+#### The Update Rule:
 **new_parameter = old_parameter - learning_rate × gradient**
 
-### Why the Minus Sign?
+#### Why the Minus Sign?
 - **Gradient points uphill** (direction of steepest increase)
 - **We want to go downhill** (minimize cost/error)
 - **Minus sign flips the direction**
 
-### Detailed Learning Example
+#### Detailed Learning Example
 **Goal:** Minimize J (treat J as our cost/error function)
 **Current State:**
 - a = 5, b = 3, c = 2
@@ -754,7 +754,7 @@ Starting from J = 33, work backwards:
 - **J_new = 3(4.7 + 2.4 × 1.1) = 3(7.34) = 22.02**
 - **Result: J decreased from 33 to 22.02!** ✅
 
-### The Chain Rule in Detail
+#### The Chain Rule in Detail
 **For parameter 'c':**
 1. **c affects u**: u = bc, so ∂u/∂c = b = 3
 2. **u affects v**: v = a + u, so ∂v/∂u = 1
@@ -765,13 +765,13 @@ Starting from J = 33, work backwards:
 This tells us: "A small change in 'c' gets multiplied by 3 (through the bc operation), then by 1 (through addition), then by 3 again (through the final multiplication)"
 
 ---
-## Neural Network Application
-### Simple Neural Network Structure:
+### Neural Network Application
+#### Simple Neural Network Structure:
 ```
 Input → [Weight × Input + Bias] → [Activation] → Output → [Loss] → Error
   x              z = wx + b         a = σ(z)      ŷ      L(ŷ,y)
 ```
-### Forward Propagation in Neural Networks:
+#### Forward Propagation in Neural Networks:
 ```python
 # Pseudocode
 z = w * x + b          # Linear combination
@@ -780,7 +780,7 @@ y_hat = a             # Prediction
 loss = compute_loss(y_hat, y_true)  # Error calculation
 ```
 
-### Backward Propagation in Neural Networks:
+#### Backward Propagation in Neural Networks:
 ```python
 # Pseudocode
 dL_da = gradient_of_loss_wrt_activation
@@ -797,7 +797,7 @@ w = w - learning_rate * dL_dw
 b = b - learning_rate * dL_db
 ```
 
-### Real Neural Network Example: Email Spam Detection
+#### Real Neural Network Example: Email Spam Detection
 **Setup:**
 ```
 Email features (x) → [w×x + b] → [sigmoid] → Spam probability (ŷ) → Error
@@ -826,8 +826,8 @@ b_new = b - learning_rate × ∂L/∂b
 The weights adjust to reduce the spam probability for emails with similar features.
 
 ---
-## Real-World Examples
-### 1. Email Spam Detection
+### Real-World Examples
+#### 1. Email Spam Detection
 
 **Forward Propagation:**
 ```
@@ -840,7 +840,7 @@ Email Text → [Feature Extraction] → [Neural Network] → Spam Probability
 Wrong Prediction ← [Adjust Weights] ← [Calculate Gradients] ← Error Signal
 "Actually Not Spam" ← [Learning] ← [Backprop] ← Large Error
 ```
-### 2. Image Recognition
+#### 2. Image Recognition
 **Forward Propagation:**
 ```
 Image Pixels → [Convolution] → [Pooling] → [Dense Layer] → "Cat" or "Dog"
@@ -851,7 +851,7 @@ Image Pixels → [Convolution] → [Pooling] → [Dense Layer] → "Cat" or "Dog
 Incorrect Label ← [Update Filters] ← [Gradient Flow] ← Prediction Error
 ```
 
-### 3. Stock Price Prediction
+#### 3. Stock Price Prediction
 **Forward Propagation:**
 ```
 Historical Prices → [LSTM Network] → [Dense Layer] → Tomorrow's Price
@@ -863,47 +863,47 @@ Actual Price ← [Adjust Memory] ← [Time-based Gradients] ← Prediction Error
 ```
 
 ---
-## Why This Matters
-### 1. **Automatic Differentiation**
+### Why This Matters
+#### 1. **Automatic Differentiation**
 - Computers can automatically calculate gradients
 - No need to manually derive complex formulas
 - Scales to networks with millions of parameters
 
-### 2. **Modular Design**
+#### 2. **Modular Design**
 - Break complex functions into simple operations
 - Easy to debug and understand
 - Reusable components
 
-### 3. **Efficient Computation**
+#### 3. **Efficient Computation**
 - Reuse intermediate calculations
 - Parallel processing possibilities
 - Memory optimization
 
-### 4. **Foundation of Deep Learning**
+#### 4. **Foundation of Deep Learning**
 - All neural networks use this principle
 - Enables training of very deep networks
 - Basis for modern AI systems
 
-### Key Learning Insights
-#### 1. **Gradients are Directions**
+#### Key Learning Insights
+##### 1. **Gradients are Directions**
 - **Positive gradient**: Parameter makes error worse → Decrease it
 - **Negative gradient**: Parameter makes error better → Increase it
 - **Zero gradient**: Parameter doesn't affect error → Leave unchanged
 
-#### 2. **Learning Rate is Crucial**
+##### 2. **Learning Rate is Crucial**
 - **Too big**: Skip over the minimum, unstable learning
 - **Too small**: Learn very slowly
 - **Just right**: Steady improvement
 
-#### 3. **Chain Rule Connects Everything**
+##### 3. **Chain Rule Connects Everything**
 - Changes propagate backwards through all layers
 - Each operation contributes its piece to the gradient
 - Complex networks become manageable
 
 ---
 
-## Key Takeaways
-### The Complete Learning Loop:
+### Key Takeaways
+#### The Complete Learning Loop:
 ```
 1. Forward Pass: Make prediction
 2. Calculate Error: Compare with truth
@@ -912,12 +912,12 @@ Actual Price ← [Adjust Memory] ← [Time-based Gradients] ← Prediction Error
 5. Repeat: Get better over time
 ```
 
-### Why It Works:
+#### Why It Works:
 - **Large errors** → **Large gradients** → **Big weight changes**
 - **Small errors** → **Small gradients** → **Small weight changes**
 - **Automatic adjustment** based on how wrong we are
 
-### Visual Summary:
+#### Visual Summary:
 ```
 Forward Pass (Making Predictions):
 Input → Layer 1 → Layer 2 → ... → Output → Error
@@ -929,7 +929,7 @@ Update (Improving):
 New Weights = Old Weights - Learning_Rate × Gradients
 ```
 
-### Real-World Impact:
+#### Real-World Impact:
 - **Search engines** understanding your queries
 - **Social media** showing relevant content
 - **Voice assistants** recognizing speech
@@ -938,7 +938,7 @@ New Weights = Old Weights - Learning_Rate × Gradients
 
 ---
 
-## Summary
+### Summary
 **Computation Graph = Smart Recipe System**
 - **Ingredients** (inputs) → **Cooking steps** (operations) → **Final dish** (output)
 - **Taste test** (error) → **Figure out improvements** (gradients) → **Better recipe** (updated parameters)
@@ -948,83 +948,83 @@ New Weights = Old Weights - Learning_Rate × Gradients
 
 This is how neural networks learn everything from recognizing images to understanding language - through the systematic application of gradients computed via backpropagation. It's the mathematical foundation that makes modern AI possible, turning the complex process of machine learning into an automatic, scalable system that can learn from data and improve over time.
 
-### Small simple notation
+#### Small simple notation
 - dJ/dv -> dv
 - da <- dJ/da
 - db <- dJ/db
 
 ---
-# Logistic Regression: Complete Forward & Backward Pass
-These images show the complete computation graph for logistic regression and how gradients flow through it.
+## Logistic Regression: Complete Forward & Backward Pass
+This section shows the complete computation graph for logistic regression and how gradients flow through it.
 
-## Image 1: Forward Propagation (Logistic Regression Recap)
-### The Complete Forward Flow:
+### Forward Propagation (Logistic Regression Recap)
+#### The Complete Forward Flow:
 ```
 Inputs (x₁, x₂) → Linear Combination (z) → Sigmoid (a) → Loss (L)
 ```
 
-### Step-by-Step:
+#### Step-by-Step:
 1. **Linear Combination**: z = w₁x₁ + w₂x₂ + b
 2. **Sigmoid Activation**: ŷ = a = σ(z) = 1/(1+e⁻ᶻ)
 3. **Loss Calculation**: L(a,y) = -(y log(a) + (1-y) log(1-a))
 
-### The Computation Graph:
+#### The Computation Graph:
 - **Inputs**: x₁, w₁, x₂, w₂, b flow into the linear combination
 - **Output**: Final loss L(a,y) that we want to minimize
 
 ---
-## Image 2: Backward Propagation (Derivatives)
-### The Backward Flow:
+### Backward Propagation (Derivatives)
+#### The Backward Flow:
 ```
 ∂L/∂L ← ∂L/∂a ← ∂L/∂z ← ∂L/∂w₁, ∂L/∂w₂, ∂L/∂b
 ```
 
-### Key Derivatives:
-#### 1. **Loss to Activation**:
+#### Key Derivatives:
+##### 1. **Loss to Activation**:
 **∂L/∂a = -y/a + (1-y)/(1-a)**
-#### 2. **Activation to Linear**:
+##### 2. **Activation to Linear**:
 **∂a/∂z = a(1-a)** (sigmoid derivative)
-#### 3. **Linear to Parameters**:
+##### 3. **Linear to Parameters**:
 - **∂z/∂w₁ = x₁**
 - **∂z/∂w₂ = x₂**
 - **∂z/∂b = 1**
 
-### Chain Rule Application:
+#### Chain Rule Application:
 Using the chain rule to get gradients for parameter updates:
 **∂L/∂w₁ = ∂L/∂a × ∂a/∂z × ∂z/∂w₁ = ∂L/∂a × a(1-a) × x₁**
 **∂L/∂w₂ = ∂L/∂a × ∂a/∂z × ∂z/∂w₂ = ∂L/∂a × a(1-a) × x₂**
 **∂L/∂b = ∂L/∂a × ∂a/∂z × ∂z/∂b = ∂L/∂a × a(1-a) × 1**
 
-### Parameter Updates:
+#### Parameter Updates:
 **w₁ := w₁ - α × ∂L/∂w₁** **w₂ := w₂ - α × ∂L/∂w₂** **b := b - α × ∂L/∂b**
 
 ---
-## Understanding the Flow
-### Forward Pass (Image 1):
+### Understanding the Flow
+#### Forward Pass:
 1. **Start** with input features and current parameters
 2. **Compute** linear combination z
 3. **Apply** sigmoid to get probability a
 4. **Calculate** loss L comparing prediction to true label
 
-### Backward Pass (Image 2):
+#### Backward Pass:
 1. **Start** from the loss
 2. **Calculate** how loss changes with respect to activation (∂L/∂a)
 3. **Propagate** through sigmoid to get ∂L/∂z
 4. **Distribute** to all parameters using chain rule
 5. **Update** parameters to reduce loss
 
-## Key Insights
-### The Beauty of the Chain Rule:
+### Key Insights
+#### The Beauty of the Chain Rule:
 Each operation contributes its "piece" to the gradient:
 - **Loss function** contributes ∂L/∂a
 - **Sigmoid function** contributes a(1-a)
 - **Linear combination** contributes x₁, x₂, or 1
-### Why This Works:
+#### Why This Works:
 - **Large errors** (∂L/∂a is big) → **Big parameter updates**
 - **Small errors** (∂L/∂a is small) → **Small parameter updates**
 - **Input features** (x₁, x₂) determine which weights get updated most
 
-### The Learning Process:
+#### The Learning Process:
 1. **Make prediction** (forward pass)
 2. **Calculate error** (loss)
 3. **Find blame** (backward pass with gradients)
@@ -1034,57 +1034,57 @@ Each operation contributes its "piece" to the gradient:
 This is exactly how logistic regression (and all neural networks) learn - through the systematic application of the chain rule to propagate errors backward and update parameters!
 
 ---
-# Logistic Regression on m Examples: Complete Training Process
+## Logistic Regression on m Examples: Complete Training Process
 
-This image shows how to train logistic regression on **multiple training examples** and the complete gradient descent algorithm.
+This section shows how to train logistic regression on **multiple training examples** and the complete gradient descent algorithm.
 
-## The Setup
-### Initialization:
+### The Setup
+#### Initialization:
 **J = 0; dw₁ = 0; dw₂ = 0; db = 0**
 - Start with zero cost and zero gradient accumulators
-### Training Loop: For i = 1 to m
+#### Training Loop: For i = 1 to m
 For each training example, perform:
 
-### Forward Pass (for example i):
+#### Forward Pass (for example i):
 1. **z⁽ⁱ⁾ = w₁ᵀx⁽ⁱ⁾ + b**
 2. **a⁽ⁱ⁾ = σ(z⁽ⁱ⁾)**
 3. **J += -[y⁽ⁱ⁾ log a⁽ⁱ⁾ + (1-y⁽ⁱ⁾) log(1-a⁽ⁱ⁾)]**
 
-### Backward Pass (for example i):
+#### Backward Pass (for example i):
 4. **dz⁽ⁱ⁾ = a⁽ⁱ⁾ - y⁽ⁱ⁾** (derivative of loss w.r.t. z)
 5. **dw₁ += x₁⁽ⁱ⁾ dz⁽ⁱ⁾** (accumulate gradient for w₁)
 6. **dw₂ += x₂⁽ⁱ⁾ dz⁽ⁱ⁾** (accumulate gradient for w₂)
 7. **db += dz⁽ⁱ⁾** (accumulate gradient for b)
 
-### After Processing All Examples:
-### Average the Gradients:
+#### After Processing All Examples:
+#### Average the Gradients:
 **J /= m** (average cost) **dw₁ /= m; dw₂ /= m; db /= m** (average gradients)
-### Update Parameters:
+#### Update Parameters:
 **w₁ := w₁ - α dw₁** **w₂ := w₂ - α dw₂**  
 **b := b - α db**
 
 ---
-## Key Insights
-### 1. **Accumulation Process**
+### Key Insights
+#### 1. **Accumulation Process**
 - **Forward pass**: Calculate prediction and add to total cost
 - **Backward pass**: Calculate gradients and add to running totals
 - **Average**: Divide by m to get average cost and gradients
 
-### 2. **Why We Average**
+#### 2. **Why We Average**
 - **Fair representation**: Each example contributes equally
 - **Stable learning**: Prevents any single example from dominating
 - **Consistent scaling**: Works regardless of dataset size
 
-### 3. **The Magic Formula: dz⁽ⁱ⁾ = a⁽ⁱ⁾ - y⁽ⁱ⁾**
+#### 3. **The Magic Formula: dz⁽ⁱ⁾ = a⁽ⁱ⁾ - y⁽ⁱ⁾**
 This simple formula captures the complete backward pass through sigmoid and loss:
 - **If a⁽ⁱ⁾ = 0.9 and y⁽ⁱ⁾ = 1**: dz = -0.1 (small error, small update)
 - **If a⁽ⁱ⁾ = 0.9 and y⁽ⁱ⁾ = 0**: dz = +0.9 (big error, big update)
 
-### 4. **Vectorization Hint**
+#### 4. **Vectorization Hint**
 The right side shows this can be vectorized for efficiency rather than using explicit loops.
 
 ---
-## Complete Algorithm Summary
+### Complete Algorithm Summary
 ```python
 # Initialization
 J = 0
@@ -1117,18 +1117,18 @@ b = b - alpha * db
 
 ---
 
-## Why This Works
-### 1. **Batch Processing**
+### Why This Works
+#### 1. **Batch Processing**
 - Process all examples before updating parameters
 - Get a "consensus" view of what changes are needed
 - More stable than updating after each example
 
-### 2. **Error Accumulation**
+#### 2. **Error Accumulation**
 - Large errors contribute more to gradient updates
 - Small errors contribute less
 - Automatic weighting based on how wrong we are
 
-### 3. **Democratic Learning**
+#### 3. **Democratic Learning**
 - Each training example gets a "vote" on parameter changes
 - Final update is the average of all votes
 - Prevents overfitting to individual examples

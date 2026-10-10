@@ -11,7 +11,7 @@ date: 2025-02-25
 ### Method
 ![[Follow the gap Tweak1.png]]
 ### Adaptive Scan-Threshold
-> **Adjusting Scan Treshold with minimum range**
+> **Adjusting Scan Threshold with minimum range**
 ``` cpp
             {0.15, 0.4},  // Min
             {0.2, 0.8},   
@@ -43,7 +43,6 @@ This is with Bubble Method
 ### Real World Test
 ![[gap-follow-test.mp4]]
 
-**- Next -**
 
 
 ---

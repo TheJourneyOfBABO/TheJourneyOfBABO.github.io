@@ -30,6 +30,9 @@ git config --global credential.helper store
 git config --global credential.helper cache
 ```
 
+> [!warning]
+> `store` saves the token in plain text in `~/.git-credentials`. On shared machines, use `cache` instead.
+
 ## Security Tips
 - Never share your token
 - Don't commit it to repositories

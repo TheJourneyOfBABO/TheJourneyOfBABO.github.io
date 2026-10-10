@@ -10,7 +10,7 @@ date: 2025-11-30
 [F1Tenth Gym - Github](https://github.com/f1tenth/f1tenth_gym_ros)
 ![[f1tenth_sim_ws.png]] 
 >[!Note]
-> Fast Prototyping, Motion Planing, Racing Algorithm Test
+> Fast Prototyping, Motion Planning, Racing Algorithm Test
 
 - More portable
 - Faster setup
@@ -20,12 +20,12 @@ date: 2025-11-30
 
 ## [Building Our Sim_ws](https://github.com/JisangYun00/f1sim_ws)
 I updated some of Docker file and added the package for Rust-ROS2 setup
-so inside the sim_ws/src folder, you might also could see `rust_ws` package which include some code to interact with simulation environment
+so inside the `sim_ws/src` folder, you can also see the `rust_ws` package, which includes some code to interact with simulation environment
 ![[f1sim_ws_rust.png]]
 ## To-Do
-- [ ] [[Lab2 Automatic Emergency Braking]]
-- [ ] [[Lab3 Wall Following]]
-- [ ] [[Lab4 Follow the Gap]]
+- [x] [[Lab2 Automatic Emergency Braking]]
+- [x] [[Lab3 Wall Following]]
+- [x] [[Lab4 Follow the Gap]]
 
 
 - [ ] SLAM

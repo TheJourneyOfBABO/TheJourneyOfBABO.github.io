@@ -18,11 +18,36 @@ The AutoDRIVE ecosystem consists of two main components:
 - **ROS 2** workspace setup
 - **Ubuntu/Linux** environment recommended
 
+### Key Dependencies
+
+### WebSocket Communication (Version Critical)
+
+|Package|Version|
+|---|---|
+|eventlet|0.33.3|
+|Flask|1.1.1|
+|Flask-SocketIO|4.1.0|
+|python-socketio|4.2.0|
+|python-engineio|3.13.0|
+
+### Data Processing Libraries
+
+|Package|Minimum Version|
+|---|---|
+|numpy|1.13.3|
+|opencv-contrib-python|4.5.1.48|
+|pillow|5.1.0|
+
 ## Installation
 ### Step 1: Download Components
 Visit the [ROBORACER ICRA 2025 webpage](https://autodrive-ecosystem.github.io/competitions/roboracer-sim-racing-icra-2025/#resources) and download:
 1. **AutoDRIVE Simulator**
 2. **AutoDRIVE Devkit**
+
+Or clone the repository:
+```bash
+git clone https://github.com/AutoDRIVE-Ecosystem/AutoDRIVE-RoboRacer-Sim-Racing.git
+```
 
 _Note: **`Local installation recommended`** if Docker setup encounters issues_
 ![[autodrive-f1tenth.png|700]]
@@ -69,25 +94,23 @@ _Note: **`Local installation recommended`** if Docker setup encounters issues_
     # Check your Python version
     python3 --version
     
-    # Install appropriate requirements
+    # Install the ONE requirements file matching your Python version
     pip3 install -r requirements_python_3.8.txt   # For Python 3.8
     pip3 install -r requirements_python_3.9.txt   # For Python 3.9
     pip3 install -r requirements_python_3.10.txt  # For Python 3.10
     
-    # Additional requirements
-    
     # Fix setuptools compatibility 
-	pip3 install 'setuptools<66.0.0' 
-	
-	# Install Python dependencies 
-	pip3 install transforms3d attrdict 
-	
-	# Install ROS2 dependencies
-	sudo apt update
-	
-	sudo apt install ros-humble-cv-bridge
-	sudo apt install ros-humble-tf-transformations
-	sudo apt install ros-humble-rviz-imu-plugin
+    pip3 install 'setuptools<66.0.0' 
+    
+    # Install Python dependencies 
+    pip3 install transforms3d attrdict 
+    
+    # Install ROS2 dependencies
+    sudo apt update
+    
+    sudo apt install ros-humble-cv-bridge
+    sudo apt install ros-humble-tf-transformations
+    sudo apt install ros-humble-rviz-imu-plugin
     ```
     
 3. **Build ROS 2 workspace:**
@@ -157,7 +180,7 @@ ros2 run autodrive_roboracer teleop_keyboard
 ## Troubleshooting
 
 - **Docker issues**: Use local installation as described above
-- **Connection problems**: Ensure both simulator and devkit are running before connecting
+- **Connection problems**: Ensure both simulator and devkit are running before connecting. Check the IP address with `hostname -I`
 - **Python version conflicts**: Use virtual environments and match exact dependency versions
 - **Permission errors**: Ensure executable permissions are set correctly
 
@@ -179,7 +202,7 @@ ros2 run autodrive_roboracer teleop_keyboard
 
 ![[autodrive_sim.png|700]]
 
-**rviz diplay after connected**  
+**RViz display after connecting**  
 
 ![[autodrive_dev_rviz.png|700]]
 
@@ -188,31 +211,3 @@ ros2 run autodrive_roboracer teleop_keyboard
 ---
 ## Reference
 [ROBORACER ICRA 2025 webpage](https://autodrive-ecosystem.github.io/competitions/roboracer-sim-racing-icra-2025/#resources)
-
-check IP Address
-`hostname -I`
-
-**Clone repository (if needed):**
-```bash
-git clone https://github.com/AutoDRIVE-Ecosystem/AutoDRIVE-RoboRacer-Sim-Racing.git
-```
-
-## Key Dependencies
-
-### WebSocket Communication (Version Critical)
-
-|Package|Version|
-|---|---|
-|eventlet|0.33.3|
-|Flask|1.1.1|
-|Flask-SocketIO|4.1.0|
-|python-socketio|4.2.0|
-|python-engineio|3.13.0|
-
-### Data Processing Libraries
-
-|Package|Minimum Version|
-|---|---|
-|numpy|1.13.3|
-|opencv-contrib-python|4.5.1.48|
-|pillow|5.1.0|

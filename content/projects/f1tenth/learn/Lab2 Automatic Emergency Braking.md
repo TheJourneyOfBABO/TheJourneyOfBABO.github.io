@@ -14,12 +14,12 @@ Emergency braking based on the parameter 'Time to collision'
 $$
 TTC_i(t) = \frac{r_i(t)}{[-\dot{r}_i(t)]_+}
 $$
-TTC is defined as the time it would take for the ego-vehicle and on object to intercept one another given that they each maintain their current heading and velocity.
+TTC is defined as the time it would take for the ego-vehicle and an object to intercept one another given that they each maintain their current heading and velocity.
 
 $$
 \begin{aligned}
 r_i(t) &: \text{Range between vehicle and object} \\
-\dot{r}_i &= v_x \cos(\theta_i)
+\dot{r}_i &= -v_x \cos(\theta_i) \quad \text{(range rate, negative when approaching)}
 \end{aligned}
 $$
 ![[AEB_terminal.png]]

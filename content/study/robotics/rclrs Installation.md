@@ -79,9 +79,14 @@ vim ~/.zshrc   # for zsh
 ```
 
 Add these lines:
-```zsh
-source /opt/ros/humble/setup.zsh        # Original ROS2
-source /opt/rust_ros2/install/setup.zsh # ROS2 Rust
+```bash
+# bash (~/.bashrc)
+source /opt/ros/humble/setup.bash        # Original ROS2
+source /opt/rust_ros2/install/setup.bash # ROS2 Rust
+
+# zsh (~/.zshrc)
+source /opt/ros/humble/setup.zsh
+source /opt/rust_ros2/install/setup.zsh
 ```
 
 ## Benefits of System-wide Installation

@@ -17,8 +17,14 @@ date: 2025-11-30
 > [Building Car](https://roboracer.ai/build.html)
 > [Basic Learning](https://roboracer.ai/learn.html#)
 ## Building the Hardware
-[[F1Tenth Build 1]]
+- [[F1Tenth Project Prerequisite]]
+- [[F1Tenth Build 1]]
+- [[F1Tenth Build 2]]
+- [[F1Tenth Build 3]]
+- [[Calibrating the Odometry]]
+- [[F1Tenth 3D LiDAR SLAM]]
 
 
 ## Software Stack
-[[projects/f1tenth/learn/index|F1Tenth Learn]] 
+- [[projects/f1tenth/learn/index|F1Tenth Learn]]
+- [[AutoDRIVE RoboRacer Setup Guide]]
