@@ -43,5 +43,5 @@ This is with Bubble Method
 
 ## References
 - [F1Tenth_Lab4_Template](https://github.com/f1tenth/f1tenth_lab4_template)
-- [Disparity Node Method](https://www.nathanotterness.com/2019/04/the-disparity-extender-algorithm-and.html)
+- [Disparity Node Method](https://web.archive.org/web/20250212014645/https://nathanotterness.com/2019/04/the-disparity-extender-algorithm-and.html)
 - [disparity Node Github](https://github.com/pmusau17/Platooning-F1Tenth?tab=readme-ov-file)

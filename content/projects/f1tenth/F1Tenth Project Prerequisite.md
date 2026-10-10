@@ -30,8 +30,8 @@ _Why ROS2?_ It's the middleware that allows different parts of your robot to com
 ## F1Tenth Platform Knowledge
 - **Official Resources**:
     - [F1Tenth Official Page](https://roboracer.ai/) - Your main hub for everything F1Tenth
-    - [Build Guide](https://roboracer.ai/build) - Step-by-step hardware assembly instructions
-    - [Learning Modules](https://roboracer.ai/learn) - Structured curriculum for autonomous racing
+    - [Build Guide](https://f1tenth.readthedocs.io/en/main/getting_started/build_car/index.html) - Step-by-step hardware assembly instructions
+    - [Learning Modules](https://f1tenth-coursekit.readthedocs.io/en/latest/) - Structured curriculum for autonomous racing
     - [Course Syllabus](https://docs.google.com/spreadsheets/d/1PaFYG7XC_XQ3ExdQGb-S8oJzzixoMOVjh4L1RjW0gT0/edit?gid=0#gid=0) - Complete learning roadmap
     - [F1Tenth GitHub](https://github.com/f1tenth) - Source code and [lab templates](https://github.com/f1tenth/f1tenth_lab1_template)
 

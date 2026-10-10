@@ -7,7 +7,7 @@ aliases:
   - build F1Tenth
 date: 2025-02-05
 ---
-Building our first F1Tenth car, based on the [official build guide](https://roboracer.ai/build.html).
+Building our first F1Tenth car, based on the [official build guide](https://f1tenth.readthedocs.io/en/main/getting_started/build_car/index.html).
 
 ![[mirucar.jpg]]
 > **A little different from the official F1Tenth build, with cleaner cable management**

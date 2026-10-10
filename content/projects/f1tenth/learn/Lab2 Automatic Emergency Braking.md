@@ -24,7 +24,7 @@ $$
 ![[AEB_terminal.png]]
 
 ## See also
-- [[Lab3 Wall Following]]
+- [[Lab3 Wall Following|Lab 3: Wall Following]]
 
 ## References
 - [F1Tenth_Lab2_Template](https://github.com/f1tenth/f1tenth_lab2_template)

@@ -12,7 +12,7 @@ date: 2025-02-10
 ![[wall_follow _1.mp4]]
 
 ## See also
-- [[Lab4 Follow the Gap]]
+- [[Lab4 Follow the Gap|Lab 4: Follow the Gap]]
 
 ## References
 - [F1Tenth_Lab3_Template](https://github.com/f1tenth/f1tenth_lab3_template)

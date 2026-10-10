@@ -5,7 +5,7 @@ tags:
   - project/f1tenth
 date: 2025-02-05
 ---
-Working through the [F1Tenth course](https://roboracer.ai/learn.html) to learn the basics of autonomous driving, first in simulation and then on the real car.
+Working through the [F1Tenth course](https://f1tenth-coursekit.readthedocs.io/en/latest/) to learn the basics of autonomous driving, first in simulation and then on the real car.
 
 ## Labs
 - **[[F1Tenth Simulator]]** — Setting up the F1Tenth Gym ROS 2D simulator
