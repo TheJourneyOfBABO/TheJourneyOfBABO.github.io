@@ -4,7 +4,7 @@ draft: false
 tags: 
 aliases:
   - Resume
-date: 2026-02-03
+date: 2025-05-30
 ---
 ## Jisang Yun
 
@@ -47,7 +47,7 @@ Automotive engineering graduate (Hanyang University, Feb. 2026) now pursuing an 
 **Sep 2023 – Present**
 
 - Founded student-led automotive software organization (originally MiRu) within the Automotive Engineering department
-- Led rebranding to MIRU (Mobile Intelligent Robotics Union) and expansion from a department-level group to a college-wide engineering club
+- Led rebranding to MIRU (Mobile Intelligent Robotics Union) and expansion beyond the department; promoted to an official associate club of the College of Engineering in Mar 2026 (90+ members)
 - Recruited and mentored 40+ students; organized workshops on automotive software architectures, embedded systems, and communication protocols
 - Passed leadership to the next generation; currently serving as club advisor
 

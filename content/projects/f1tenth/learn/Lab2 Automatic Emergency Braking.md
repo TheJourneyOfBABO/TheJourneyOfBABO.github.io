@@ -5,7 +5,7 @@ tags:
   - F1Tenth
 aliases:
   - AEB
-date: 2025-02-25
+date: 2025-02-10
 ---
 ## AEB (Automatic Emergency Braking)
 > [Lecture Note](https://docs.google.com/presentation/d/1HQSLPLE-fZ3EN-9PyqMd7-ti7JSLKL7qlrouGFEprU0/edit#slide=id.g10a2bc3b756_0_295) / [Our Code](https://github.com/JisangYun00/f1sim_ws/tree/master/src/lecture_ws/f1tenth_lab2_aeb)

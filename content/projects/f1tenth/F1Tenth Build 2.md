@@ -4,7 +4,7 @@ draft: false
 tags:
   - F1Tenth
 aliases:
-date: 2025-11-30
+date: 2025-05-13
 ---
 ## Update Platform Design (Lower it)
 From the last [[F1Tenth Build 1]], I redesigned the platform to lower the centre of gravity. Quickly prototyped with laser-cut MDF. 

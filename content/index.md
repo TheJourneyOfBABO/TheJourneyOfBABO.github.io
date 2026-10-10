@@ -16,7 +16,6 @@ Integrated MS/PhD student at **AILAB**, Hanyang University (Planning team), work
 ## Now
 
 - **A1 Challenge 2026** — end-to-end autonomous racing
-- **DDS Vehicle Interface** — CARLA simulator integration (early stage)
 - Advisor of **[[MIRU]]**, the club I founded in Sep. 2023
 
 ## Explore

@@ -3,7 +3,7 @@ title: AILAB Summer Internship 2025
 draft: false
 tags: 
 aliases:
-date: 2025-08-30
+date: 2025-06-30
 ---
 ## The summer internship program before Master Enrolment
 AILAB (Automotive Intelligence Lab) at Hanyang University, Seoul, ran an internship program in summer 2025: 8 weeks from 30.06 (Mon) to 22.08 (Fri). The first 3 weeks were for study, followed by a project on the [[projects/f1tenth/index|F1Tenth]] platform.

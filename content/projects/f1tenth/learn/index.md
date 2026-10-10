@@ -4,7 +4,7 @@ draft: false
 tags:
   - F1Tenth
 aliases:
-date: 2025-11-30
+date: 2025-02-05
 ---
 ## [F1Tenth Learn](https://roboracer.ai/learn.html#)
 > Learning the basic concepts of autonomous driving
