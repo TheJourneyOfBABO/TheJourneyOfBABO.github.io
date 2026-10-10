@@ -21,4 +21,4 @@ date: 2025-11-30
 
 
 ## Software Stack
-[[F1Tenth Learn]] 
+[[projects/f1tenth/learn/index|F1Tenth Learn]] 

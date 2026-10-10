@@ -12,4 +12,4 @@ date: 2025-01-31
 
 
 ## Projects
-- [[F1Tenth]] Node with Rust
+- [[projects/f1tenth/index|F1Tenth]] Node with Rust

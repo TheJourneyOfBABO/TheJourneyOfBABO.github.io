@@ -23,5 +23,5 @@ Just before the fall semester began, I founded MiRu, which is the "Automotive So
 
 
 ## Current Project
-- [[F1Tenth]]: Dec, 2024 ~
+- [[projects/f1tenth/index|F1Tenth]]: Dec, 2024 ~
 - 

@@ -5,7 +5,7 @@ tags:
 aliases:
 date: 2025-11-30
 ---
-## [[F1Tenth]] Prerequisites: What You Need to Know Before Starting
+## [[projects/f1tenth/index|F1Tenth]] Prerequisites: What You Need to Know Before Starting
 Before diving into this exciting robotics project, here are the essential skills and knowledge areas you should familiarize yourself with:
 ### Linux Fundamentals
 - **Ubuntu 22.04  LTS** (Choose either dual booting or virtual machine setup)

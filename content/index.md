@@ -47,6 +47,6 @@ Being a _babo_ means staying curious, embracing new ideas, and never stopping le
 > CARLA simulator integration & vehicle interface standardization — early stage
 
 ## F1Tenth(RoboRacer)
-> [[F1Tenth]] — 2025 ICCAS (2nd place qualifying), Global Innovation Festa (1st place overall)
+> [[projects/f1tenth/index|F1Tenth]] — 2025 ICCAS (2nd place qualifying), Global Innovation Festa (1st place overall)
 
 ![[MiRuCar_3dlidar+cam_Photo_2025-05-16-12-52-58 006.jpeg|550]]
