@@ -1,11 +1,11 @@
 ---
-title: Linux Commands and Terminal Commands Summary
+title: Linux Command Cheat Sheet
 description: "Cheat sheet of essential Linux shell commands, permissions, and APT"
 tags:
   - guide/linux
 date: 2025-03-14
 ---
-A quick reference of the Linux commands I use most, from navigating the file system to permissions and package management.
+A quick reference of the Linux commands I use most, from navigating the file system to permissions and package management. New to the terminal? Start with [[Terminal Setup Basics|Terminal Setup: Basics]].
 
 ## Basic Shell Concepts
 
@@ -18,11 +18,6 @@ A quick reference of the Linux commands I use most, from navigating the file sys
 - **csh**: C Shell with improved interactive features
 - **bash**: Enhanced version of sh, default in many Linux distributions
 - **zsh**: Modern shell with extensive features and customization options
-
-### Useful Shell Features
-- **Auto-completion**: Press `Tab` to complete commands or filenames (double `Tab` shows options)
-- **Command history**: Access previous commands with `↑` and `↓` keys
-- **Command history search**: Use `Ctrl+r` to search through command history
 
 ## File System Navigation
 

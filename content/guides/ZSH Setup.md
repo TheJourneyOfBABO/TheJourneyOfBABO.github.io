@@ -1,5 +1,5 @@
 ---
-title: ZSH Setup Guide
+title: ZSH Setup
 description: "Zsh and Oh My Zsh setup with plugins and ROS 2 aliases"
 tags:
   - guide/linux
@@ -8,7 +8,7 @@ date: 2025-07-09
 ---
 A shell environment setup guide based on ZSH + Oh My Zsh. Includes autocompletion, syntax highlighting, and ROS2 alias configuration.
 
-> For the full terminal setup (including Neovim, Tmux, and Lazygit), see [[Complete Terminal Setup Guide for Ubuntu]].
+> This guide replaces Bash with Zsh. If you are new to the terminal, start with [[Terminal Setup Basics|Terminal Setup: Basics]]. The `lz` alias below needs Lazygit from [[Terminal Setup Advanced|Terminal Setup: Advanced]].
 
 ---
 

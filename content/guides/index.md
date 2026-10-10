@@ -2,12 +2,15 @@
 title: Guides
 description: Step-by-step setup guides for Ubuntu and developer tools
 ---
-Step-by-step guides for setting up Ubuntu and the tools I use every day.
+Step-by-step guides for setting up Ubuntu and the tools I use every day. If you are new to Linux, follow them in order.
 
-## Terminal
-- **[[Complete Terminal Setup Guide for Ubuntu|Terminal Setup]]** — Bash completion, fzf, Neovim, Tmux, and Lazygit
-- **[[ZSH Setup Guide|ZSH Setup]]** — Zsh and Oh My Zsh with plugins and ROS 2 aliases
-- **[[Linux Commands and Terminal Commands Summary|Linux Commands]]** — A cheat sheet of everyday shell commands
+## Start Here
+- **[[Terminal Setup Basics|Terminal Setup: Basics]]** — Essential commands, Terminator, case-insensitive Tab completion, and fzf
+- **[[Linux Command Cheat Sheet]]** — The full reference: paths, permissions, redirection, and APT
+
+## Level Up
+- **[[Terminal Setup Advanced|Terminal Setup: Advanced]]** — tmux, herdr, VS Code, Neovim, Lazygit, and more CLI tools
+- **[[ZSH Setup]]** — Optional: switch from Bash to Zsh with plugins and ROS 2 aliases
 
 ## Git
-- **[[GitHub Token Setup Guide|GitHub Token]]** — Using a personal access token for Git over HTTPS
+- **[[GitHub Token Setup]]** — Using a personal access token for Git over HTTPS

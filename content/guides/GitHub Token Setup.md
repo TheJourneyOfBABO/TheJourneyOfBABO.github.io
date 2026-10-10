@@ -1,5 +1,5 @@
 ---
-title: GitHub Token Setup Guide
+title: GitHub Token Setup
 description: "Create a personal access token and use it for Git over HTTPS"
 tags:
   - guide/git
@@ -39,4 +39,4 @@ git config --global credential.helper cache
 - Delete unused tokens from GitHub settings
 
 ## See also
-- [[Complete Terminal Setup Guide for Ubuntu]]
+- [[Terminal Setup Advanced|Terminal Setup: Advanced]] — Lazygit for a visual Git workflow
