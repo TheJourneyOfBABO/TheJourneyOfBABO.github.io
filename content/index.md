@@ -3,10 +3,11 @@ title: The Journey of BABO
 aliases:
   - Front page
 ---
+
 ![[The Journey of Babo Logo.jpg|300]]
 
-> **BABO** — *Boundless Adventure in Bridging Opportunities.*
-> In Korean, *babo (바보)* means "dummy" — staying curious and never stopping learning.
+> **BABO** — _Boundless Adventure in Bridging Opportunities._
+> In Korean, _babo (바보)_ means "dummy" — staying curious and never stopping learning.
 
 ## Hi, I'm Jisang
 
