@@ -5,7 +5,7 @@ tags:
   - project/miru
 date: 2023-12-30
 ---
-> **Since 09.2023 · [GitHub](https://github.com/miru-ae) · [LinkedIn](https://www.linkedin.com/company/miru-cargo)**
+> **Since 09.2023 · [GitHub](https://github.com/miru-cargo) · [LinkedIn](https://www.linkedin.com/company/miru-cargo)**
 > **Associate club of the College of Engineering, Hanyang University (since Mar 2026) · 90+ members. Founded by me (Jisang Yun) as MiRu.**
 
 ## Where we started from?
