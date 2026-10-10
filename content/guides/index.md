@@ -6,7 +6,7 @@ Step-by-step guides for setting up Ubuntu and the tools I use every day. If you 
 
 ## Start Here
 - **[[Terminal Setup Basics|Terminal Setup: Basics]]** — Essential commands, Terminator, case-insensitive Tab completion, and fzf
-- **[[Linux Command Cheat Sheet]]** — The full reference: paths, permissions, redirection, and APT
+- **[[Linux Terminal 101]]** — How the terminal works: the shell, file system, permissions, pipes, and APT
 
 ## Level Up
 - **[[Terminal Setup Advanced|Terminal Setup: Advanced]]** — tmux, herdr, VS Code, Neovim, Lazygit, and more CLI tools

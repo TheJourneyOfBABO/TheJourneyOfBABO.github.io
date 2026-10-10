@@ -32,8 +32,8 @@ Open a terminal with `Ctrl + Alt + T`. These are the commands you will use every
 > [!warning]
 > `rm` does not move files to the trash. Deleted files are gone, so double-check the path, especially with `rm -r`.
 
-> [!tip] Want more?
-> [[Linux Command Cheat Sheet]] covers paths, links, permissions, redirection, and package management in more detail.
+> [!tip] Want to understand how it all works?
+> [[Linux Terminal 101]] walks through the shell, the file system, permissions, pipes, and APT step by step.
 
 ## 2. Terminator
 
@@ -126,5 +126,5 @@ source ~/.bashrc
 
 ## See also
 - [[Terminal Setup Advanced|Terminal Setup: Advanced]] — tmux, herdr, VS Code, Neovim, and Lazygit
-- [[Linux Command Cheat Sheet]] — The full command reference
+- [[Linux Terminal 101]] — How the terminal works, from the ground up
 - [[ZSH Setup]] — Switch from Bash to Zsh

@@ -11,7 +11,7 @@ Before diving into this exciting robotics project, here are the essential skills
     - **Dual booting**: Install Ubuntu alongside your existing OS for better performance
     - **Virtual machine**: Easier setup but may have performance limitations
     - Essential resources:
-        - [[Linux Command Cheat Sheet]] - Master basic file operations, navigation, and system commands
+        - [[Linux Terminal 101]] - Master basic file operations, navigation, and system commands
         - [[Terminal Setup Basics|Terminal Setup: Basics]] - Set up a productive development environment
 
 _Why Linux?_ Most robotics development happens in Linux environments, and ROS2 works best on Ubuntu.
