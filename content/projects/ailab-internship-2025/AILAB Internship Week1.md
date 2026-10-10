@@ -17,11 +17,10 @@ date: 2025-08-30
 - [[Stack and Queue]]
 
 **C++ Topics:**
-- Chapter 2: [[C++ Access modifiers and references|Access modifiers and references]]
+- Chapter 2: Access modifiers and references
 - Chapter 3: [[C++ Function overloading and overriding (new, delete)|Function overloading and overriding (new, delete)]]
 - Chapter 4: Objects, constructors, class variables
 	- [[C++ 4-1. The world is made of objects|4-1. The world is made of objects]]
-	- 
 
 ### ML & Python Study
 **Deep Learning:**
