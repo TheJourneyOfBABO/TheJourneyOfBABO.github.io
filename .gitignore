@@ -12,3 +12,12 @@ replit.nix
 .quartz/
 quartz/cli/tui/dist/
 .turbo/
+
+# AI agent artifacts
+.pi/
+.claude/
+CLAUDE.local.md
+.codex/
+.gemini/
+.cursor/
+.aider*
