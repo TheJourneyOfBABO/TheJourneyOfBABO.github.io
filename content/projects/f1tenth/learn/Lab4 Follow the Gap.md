@@ -33,11 +33,11 @@ date: 2025-02-10
 ```
 ## Simulation Workspace
 This is with Bubble Method
-![[Follow-the-Gap-levine-obs.gif]]
-![[Gap_follow_sim(obs).gif]]
+![[Follow-the-Gap-levine-obs.mp4]]
+![[Gap_follow_sim(obs).mp4]]
 
 **Race Track Map**
-![[Gap_Follow_sim(2025.02.09).gif]]
+![[Gap_Follow_sim(2025.02.09).mp4]]
 ## Real World Test
 ![[gap-follow-test.mp4]]
 
